@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'HelloFacebook' target in the 'HelloFacebook' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
