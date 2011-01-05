@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class HelloFacebookViewController;
 @interface AppDelegate_iPhone : NSObject <UIApplicationDelegate> {
     UIWindow *window;
+	HelloFacebookViewController	*helloFacebookViewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;

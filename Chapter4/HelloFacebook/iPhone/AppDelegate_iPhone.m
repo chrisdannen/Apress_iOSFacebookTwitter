@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate_iPhone.h"
+#import "HelloFacebookViewController.h"
 
 @implementation AppDelegate_iPhone
 
@@ -18,8 +19,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
+	CGRect screenBounds = [[UIScreen mainScreen] bounds];
+	window = [[UIWindow alloc] initWithFrame:screenBounds];
+	
     // Override point for customization after application launch.
-    
+	helloFacebookViewController = [[HelloFacebookViewController alloc] init];
+    if ([self.window respondsToSelector:@selector(setRootViewController:)]) {
+		[self.window setRootViewController:helloFacebookViewController];
+	} else {
+		[self.window addSubview:helloFacebookViewController.view];
+	}
+
     [self.window makeKeyAndVisible];
     
     return YES;
@@ -75,6 +85,7 @@
 
 
 - (void)dealloc {
+	[helloFacebookViewController release];
     [window release];
     [super dealloc];
 }
