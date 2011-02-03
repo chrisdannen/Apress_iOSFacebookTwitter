@@ -1,0 +1,790 @@
+TOAuthFacebook
+v7
+r0
+t318139893.725417
+cCheck dependencies
+cProcessInfoPlistFile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app/Info.plist OAuthFacebook-Info.plist
+cCpResource build/Debug-iphonesimulator/OAuthFacebook.app/FBDialog.bundle ../../facebook-ios-sdk/src/FBDialog.bundle
+cCpResource build/Debug-iphonesimulator/OAuthFacebook.app/FBConnect.bundle ../../facebook-ios-sdk/sample/FBConnect.bundle
+cProcessPCH /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthFacebook_Prefix-dmtvelhcfosgigakepqsqreelksv/OAuthFacebook_Prefix.pch.gch OAuthFacebook_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/main.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/NSObject+SBJSON.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/NSString+SBJSON.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/SBJSON.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/SBJsonBase.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/SBJsonParser.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/SBJsonWriter.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/FBRequest.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/FBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/Facebook.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/Facebook.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/FBLoginDialog.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/FBLoginDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/FBDialog.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/FBDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/AppDelegate.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/FacebookViewController.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/FacebookViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/OAuthFacebookView.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/OAuthFacebookView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/FBLoginButton.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/sample/DemoApp/Classes/FBLoginButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app/OAuthFacebook normal i386
+cGenerateDSYMFile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app.dSYM /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app/OAuthFacebook
+cTouch /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/dlfcn.h
+c000000004AB98DF40000000000000B1C
+t1253674484
+s2844
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/sample/DemoApp/Classes/FBLoginButton.h
+c000000004D21606E00000000000003CB
+t1294033006
+s971
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/sample/DemoApp/Classes/FBLoginButton.m
+c000000004D21606E00000000000007D4
+t1294033006
+s2004
+i"FBLoginButton.h"
+i"Facebook.h"
+i<dlfcn.h>
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/sample/FBConnect.bundle
+c000000004D21606E0000000000000066
+t1294033006
+s102
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/FBDialog.bundle
+c000000004D21606E0000000000000066
+t1294033006
+s102
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/FBDialog.m
+c000000004D21606E000000000000576F
+t1294033006
+s22383
+i"FBDialog.h"
+i"Facebook.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/FBLoginDialog.m
+c000000004D21606E0000000000000BC4
+t1294033006
+s3012
+i"FBDialog.h"
+i"FBLoginDialog.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/FBRequest.m
+c000000004D21606E0000000000002C39
+t1294033006
+s11321
+i"FBRequest.h"
+i"JSON.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/Facebook.h
+c000000004D21606E0000000000000C94
+t1294033006
+s3220
+i"FBLoginDialog.h"
+i"FBRequest.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/Facebook.m
+c000000004D4266E40000000000005285
+t1296197348
+s21125
+i"Facebook.h"
+i"FBLoginDialog.h"
+i"FBRequest.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/JSON.h
+c000000004D21606E00000000000008F9
+t1294033006
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/NSObject+SBJSON.m
+c000000004D21606E000000000000089E
+t1294033006
+s2206
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/NSString+SBJSON.m
+c000000004D21606E000000000000087D
+t1294033006
+s2173
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/SBJSON.m
+c000000004D21606E0000000000001ABC
+t1294033006
+s6844
+i"SBJSON.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/SBJsonBase.m
+c000000004D21606E0000000000000AC1
+t1294033006
+s2753
+i"SBJsonBase.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/SBJsonParser.m
+c000000004D21606E00000000000036D0
+t1294033006
+s14032
+i"SBJsonParser.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/SBJsonWriter.m
+c000000004D21606E0000000000001F26
+t1294033006
+s7974
+i"SBJsonWriter.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/OAuthFacebook_Prefix.pch
+c000000004D461B6500000000000000C3
+t1296440165
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/AppDelegate.h
+c000000004D46297B0000000000000192
+t1296443771
+s402
+i<UIKit/UIKit.h>
+i"Facebook.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/AppDelegate.m
+c000000004D4629810000000000000CF8
+t1296443777
+s3320
+i"AppDelegate.h"
+i"FacebookViewController.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/FBLoginButton.h
+c000000004D46338C0000000000000133
+t1296446348
+s307
+i<UIKit/UIKit.h>
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/FBLoginButton.m
+c000000004D4633C2000000000000062C
+t1296446402
+s1580
+i"FBLoginButton.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/FacebookViewController.h
+c000000004D46275900000000000000FB
+t1296443225
+s251
+i<UIKit/UIKit.h>
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/FacebookViewController.m
+c000000004D46292000000000000004D5
+t1296443680
+s1237
+i"FacebookViewController.h"
+i"OAuthFacebookView.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/OAuthFacebookView.h
+c000000004D462D800000000000000143
+t1296444800
+s323
+i<UIKit/UIKit.h>
+i"Facebook.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/OAuthFacebookView.m
+c000000004D4635B6000000000000078F
+t1296446902
+s1935
+i"OAuthFacebookView.h"
+i"FBLoginButton.h"
+i"AppDelegate.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/main.m
+c000000004D46295C000000000000017F
+t1296443740
+s383
+i<UIKit/UIKit.h>
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app
+t1296447093
+s238
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app.dSYM
+t1296447093
+s102
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app/FBConnect.bundle
+t1296447089
+s102
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app/FBDialog.bundle
+t1296447089
+s102
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app/Info.plist
+t1296447089
+s950
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app/MainWindow_iPad.nib
+t1296443021
+s982
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app/MainWindow_iPhone.nib
+t1296443021
+s984
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app/OAuthFacebook
+t1296447093
+s132880
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app/PkgInfo
+t1296447089
+s8
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/AppDelegate.o
+t1296447093
+s53768
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/AppDelegate_iPad.o
+t1296443022
+s48492
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/AppDelegate_iPhone.o
+t1296443022
+s52584
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/FBDialog.o
+t1296447093
+s109832
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/FBLoginButton.o
+t1296447093
+s40588
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/FBLoginDialog.o
+t1296447093
+s43980
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/FBRequest.o
+t1296447093
+s43784
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/Facebook.o
+t1296447093
+s75612
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/FacebookViewController.o
+t1296447093
+s40284
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/NSObject+SBJSON.o
+t1296447092
+s8420
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/NSString+SBJSON.o
+t1296447092
+s8340
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/OAuthFacebook.LinkFileList
+c000000004D4636710000000000000AB4
+t1296447089
+s2740
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/OAuthFacebookView.o
+t1296447093
+s48964
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/SBJSON.o
+t1296447092
+s20208
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/SBJsonBase.o
+t1296447092
+s13340
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/SBJsonParser.o
+t1296447092
+s36068
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/SBJsonWriter.o
+t1296447092
+s25676
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/main.o
+t1296447092
+s6576
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/iPad/AppDelegate_iPad.h
+c000000004D461B65000000000000014E
+t1296440165
+s334
+i<UIKit/UIKit.h>
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/iPad/AppDelegate_iPad.m
+c000000004D461B6500000000000006B4
+t1296440165
+s1716
+i"AppDelegate_iPad.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/iPad/MainWindow_iPad.xib
+c000000004D461B6500000000000036E1
+t1296440165
+s14049
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/iPhone/AppDelegate.m
+c000000004D4626510000000000000A1B
+t1296442961
+s2587
+i"AppDelegate_iPhone.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/iPhone/AppDelegate_iPhone.h
+c000000004D46264E0000000000000183
+t1296442958
+s387
+i<UIKit/UIKit.h>
+i"Facebook.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/iPhone/AppDelegate_iPhone.m
+c000000004D4626510000000000000A1B
+t1296442961
+s2587
+i"AppDelegate_iPhone.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/iPhone/MainWindow_iPhone.xib
+c000000004D461B650000000000003910
+t1296440165
+s14608
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/facebook-ios-sdk/sample/DemoApp/Classes/FBLoginButton.h
+c000000004D21606E00000000000003CB
+t1294033006
+s971
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/facebook-ios-sdk/src/FBDialog.h
+c000000004D21606E0000000000001246
+t1294033006
+s4678
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/facebook-ios-sdk/src/FBLoginDialog.h
+c000000004D21606E000000000000056B
+t1294033006
+s1387
+i"FBDialog.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/facebook-ios-sdk/src/FBRequest.h
+c000000004D21606E0000000000000CEA
+t1294033006
+s3306
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/facebook-ios-sdk/src/Facebook.h
+c000000004D21606E0000000000000C94
+t1294033006
+s3220
+i"FBLoginDialog.h"
+i"FBRequest.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/facebook-ios-sdk/src/JSON/NSObject+SBJSON.h
+c000000004D21606E0000000000000A01
+t1294033006
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/facebook-ios-sdk/src/JSON/NSString+SBJSON.h
+c000000004D21606E0000000000000916
+t1294033006
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/facebook-ios-sdk/src/JSON/SBJSON.h
+c000000004D21606E0000000000000AED
+t1294033006
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/facebook-ios-sdk/src/JSON/SBJsonBase.h
+c000000004D21606E0000000000000B82
+t1294033006
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/facebook-ios-sdk/src/JSON/SBJsonParser.h
+c000000004D21606E0000000000000C0B
+t1294033006
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/facebook-ios-sdk/src/JSON/SBJsonWriter.h
+c000000004D21606E0000000000001140
+t1294033006
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthFacebook_Prefix-dmtvelhcfosgigakepqsqreelksv/OAuthFacebook_Prefix.pch.gch
+t1296447092
+s15453392
+
+NOAuthFacebook-Info.plist
+c000000004D4626A200000000000005BF
+t1296443042
+s1471
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318139889#318139889#0(0"0(0#1#0"8668395008#0"0#
+
+CCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/AppDelegate.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318139893.231152
+e318139893.365059
+r1
+xCompileC
+xbuild/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/AppDelegate.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@108"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/AppDelegate.m318139893#318139893#0(0"0(0#0#100"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/AppDelegate.m8667918624#2506"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthFacebook_Prefix-dmtvelhcfosgigakepqsqreelksv/OAuthFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/AppDelegate.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/AppDelegate.o0#
+
+CCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/AppDelegate.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/iPhone/AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/AppDelegate_iPad.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/iPad/AppDelegate_iPad.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318135822.638847
+e318135822.750390
+r1
+xCompileC
+xbuild/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/AppDelegate_iPad.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/iPad/AppDelegate_iPad.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@111"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/iPad/AppDelegate_iPad.m318135822#318135822#0(0"0(0#0#103"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/iPad/AppDelegate_iPad.m8668381568#2514"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthFacebook_Prefix-dmtvelhcfosgigakepqsqreelksv/OAuthFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/iPad/AppDelegate_iPad.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/AppDelegate_iPad.o0#
+
+CCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/AppDelegate_iPhone.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/iPhone/AppDelegate_iPhone.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318135822.543930
+e318135822.690276
+r1
+xCompileC
+xbuild/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/AppDelegate_iPhone.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/iPhone/AppDelegate_iPhone.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@115"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/iPhone/AppDelegate_iPhone.m318135822#318135822#0(0"0(0#0#107"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/iPhone/AppDelegate_iPhone.m8673208352#2520"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthFacebook_Prefix-dmtvelhcfosgigakepqsqreelksv/OAuthFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/iPhone/AppDelegate_iPhone.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/AppDelegate_iPhone.o0#
+
+CCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/FBDialog.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/FBDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318139893.155148
+e318139893.524073
+r1
+xCompileC
+xbuild/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/FBDialog.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/FBDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@125"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/FBDialog.m318139893#318139893#0(0"0(0#0#117"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/FBDialog.m8670204544#2520"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthFacebook_Prefix-dmtvelhcfosgigakepqsqreelksv/OAuthFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/FBDialog.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/FBDialog.o0#
+
+CCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/FBLoginButton.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/sample/DemoApp/Classes/FBLoginButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318139893.524164
+e318139893.643576
+r1
+xCompileC
+xbuild/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/FBLoginButton.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/sample/DemoApp/Classes/FBLoginButton.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@149"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/sample/DemoApp/Classes/FBLoginButton.m318139893#318139893#0(0"0(0#0#141"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/sample/DemoApp/Classes/FBLoginButton.m8669995904#2549"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthFacebook_Prefix-dmtvelhcfosgigakepqsqreelksv/OAuthFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/sample/DemoApp/Classes/FBLoginButton.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/FBLoginButton.o0#
+
+CCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/FBLoginButton.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/FBLoginButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318139202.837366
+e318139203.121552
+r1
+xCompileC
+xbuild/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/FBLoginButton.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/FBLoginButton.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@110"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/FBLoginButton.m318139202#318139203#0(0"0(0#0#102"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/FBLoginButton.m8666987648#2510"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthFacebook_Prefix-dmtvelhcfosgigakepqsqreelksv/OAuthFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/FBLoginButton.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/FBLoginButton.o0#
+
+CCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/FBLoginDialog.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/FBLoginDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318139893.121896
+e318139893.231047
+r1
+xCompileC
+xbuild/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/FBLoginDialog.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/FBLoginDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@130"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/FBLoginDialog.m318139893#318139893#0(0"0(0#0#122"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/FBLoginDialog.m8671550752#2530"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthFacebook_Prefix-dmtvelhcfosgigakepqsqreelksv/OAuthFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/FBLoginDialog.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/FBLoginDialog.o0#
+
+CCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/FBRequest.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/FBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318139892.944014
+e318139893.121789
+r1
+xCompileC
+xbuild/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/FBRequest.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/FBRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@126"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/FBRequest.m318139892#318139893#0(0"0(0#0#118"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/FBRequest.m8677778496#2522"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthFacebook_Prefix-dmtvelhcfosgigakepqsqreelksv/OAuthFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/FBRequest.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/FBRequest.o0#
+
+CCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/Facebook.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/Facebook.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318139892.991365
+e318139893.155045
+r1
+xCompileC
+xbuild/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/Facebook.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/Facebook.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@125"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/Facebook.m318139892#318139893#0(0"0(0#0#117"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/Facebook.m8675408640#2520"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthFacebook_Prefix-dmtvelhcfosgigakepqsqreelksv/OAuthFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/Facebook.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/Facebook.o0#
+
+CCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/FacebookViewController.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/FacebookViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318139893.365159
+e318139893.496115
+r1
+xCompileC
+xbuild/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/FacebookViewController.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/FacebookViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@119"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/FacebookViewController.m318139893#318139893#0(0"0(0#0#111"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/FacebookViewController.m8678484960#2528"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthFacebook_Prefix-dmtvelhcfosgigakepqsqreelksv/OAuthFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/FacebookViewController.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/FacebookViewController.o0#
+
+CCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/NSObject+SBJSON.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318139892.415332
+e318139892.586069
+r1
+xCompileC
+xbuild/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/NSObject+SBJSON.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@137"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/NSObject+SBJSON.m318139892#318139892#0(0"0(0#0#129"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/NSObject+SBJSON.m8670407648#2539"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthFacebook_Prefix-dmtvelhcfosgigakepqsqreelksv/OAuthFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/NSObject+SBJSON.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/NSObject+SBJSON.o0#
+
+CCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/NSString+SBJSON.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318139892.586177
+e318139892.662239
+r1
+xCompileC
+xbuild/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/NSString+SBJSON.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@137"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/NSString+SBJSON.m318139892#318139892#0(0"0(0#0#129"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/NSString+SBJSON.m8674642016#2539"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthFacebook_Prefix-dmtvelhcfosgigakepqsqreelksv/OAuthFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/NSString+SBJSON.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/NSString+SBJSON.o0#
+
+CCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/OAuthFacebookView.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/OAuthFacebookView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318139893.496282
+e318139893.634668
+r1
+xCompileC
+xbuild/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/OAuthFacebookView.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/OAuthFacebookView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@114"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/OAuthFacebookView.m318139893#318139893#0(0"0(0#0#106"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/OAuthFacebookView.m8678161024#2518"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthFacebook_Prefix-dmtvelhcfosgigakepqsqreelksv/OAuthFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/OAuthFacebookView.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/OAuthFacebookView.o0#
+
+CCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/SBJSON.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318139892.611478
+e318139892.712350
+r1
+xCompileC
+xbuild/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/SBJSON.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@128"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/SBJSON.m318139892#318139892#0(0"0(0#0#120"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/SBJSON.m8669907392#2521"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthFacebook_Prefix-dmtvelhcfosgigakepqsqreelksv/OAuthFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/SBJSON.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/SBJSON.o0#
+
+CCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/SBJsonBase.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318139892.662343
+e318139892.761292
+r1
+xCompileC
+xbuild/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/SBJsonBase.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@132"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/SBJsonBase.m318139892#318139892#0(0"0(0#0#124"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/SBJsonBase.m8677353728#2529"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthFacebook_Prefix-dmtvelhcfosgigakepqsqreelksv/OAuthFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/SBJsonBase.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/SBJsonBase.o0#
+
+CCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/SBJsonParser.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318139892.712452
+e318139892.991248
+r1
+xCompileC
+xbuild/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/SBJsonParser.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@134"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/SBJsonParser.m318139892#318139892#0(0"0(0#0#126"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/SBJsonParser.m8674649760#2533"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthFacebook_Prefix-dmtvelhcfosgigakepqsqreelksv/OAuthFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/SBJsonParser.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/SBJsonParser.o0#
+
+CCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/SBJsonWriter.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318139892.761410
+e318139892.943911
+r1
+xCompileC
+xbuild/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@134"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/SBJsonWriter.m318139892#318139892#0(0"0(0#0#126"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/SBJsonWriter.m8670127712#2533"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthFacebook_Prefix-dmtvelhcfosgigakepqsqreelksv/OAuthFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/JSON/SBJsonWriter.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/SBJsonWriter.o0#
+
+CCompileC build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/main.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318139892.414154
+e318139892.611376
+r1
+xCompileC
+xbuild/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/main.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/main.m318139892#318139892#0(0"0(0#0#93"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/main.m8677594592#2492"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthFacebook_Prefix-dmtvelhcfosgigakepqsqreelksv/OAuthFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/Shared/main.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/iPad/MainWindow_iPad.xib
+s318135820.504837
+e318135821.157393
+r1
+xCompileXIB
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/iPad/MainWindow_iPad.xib
+lSLF07#2@35"CompileXIB iPad/MainWindow_iPad.xib318135820#318135821#0(0"0(0#0#104"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/iPad/MainWindow_iPad.xib8668400864#714"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app/MainWindow_iPad.nib /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/iPad/MainWindow_iPad.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/iPhone/MainWindow_iPhone.xib
+s318135820.502395
+e318135821.105846
+r1
+xCompileXIB
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/iPhone/MainWindow_iPhone.xib
+lSLF07#2@39"CompileXIB iPhone/MainWindow_iPhone.xib318135820#318135821#0(0"0(0#0#108"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/iPhone/MainWindow_iPhone.xib8668691008#720"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app/MainWindow_iPhone.nib /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/iPhone/MainWindow_iPhone.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/OAuthFacebook.app/FBConnect.bundle ../../facebook-ios-sdk/sample/FBConnect.bundle
+s318139889.862536
+e318139889.924660
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/OAuthFacebook.app/FBConnect.bundle
+x../../facebook-ios-sdk/sample/FBConnect.bundle
+lSLF07#2@51"Copy ../../facebook-ios-sdk/sample/FBConnect.bundle318139889#318139889#0(0"0(0#0#126"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/sample/FBConnect.bundle8670346912#633"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/sample/FBConnect.bundle /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app0#
+
+CCpResource build/Debug-iphonesimulator/OAuthFacebook.app/FBDialog.bundle ../../facebook-ios-sdk/src/FBDialog.bundle
+s318139889.861765
+e318139889.925240
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/OAuthFacebook.app/FBDialog.bundle
+x../../facebook-ios-sdk/src/FBDialog.bundle
+lSLF07#2@47"Copy ../../facebook-ios-sdk/src/FBDialog.bundle318139889#318139889#0(0"0(0#0#122"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/FBDialog.bundle8671212000#629"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/../../facebook-ios-sdk/src/FBDialog.bundle /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app0#
+
+CGenerateDSYMFile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app.dSYM /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app/OAuthFacebook
+s318139893.686287
+e318139893.720997
+r1
+xGenerateDSYMFile
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app.dSYM
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app/OAuthFacebook
+lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/OAuthFacebook.app.dSYM build/Debug-iphonesimulator/OAuthFacebook.app/OAuthFacebook318139893#318139893#0(0"0(0#0#139"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app/OAuthFacebook8677590016#524"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app/OAuthFacebook -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app.dSYM0#
+
+CLd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app/OAuthFacebook normal i386
+s318139893.643673
+e318139893.686172
+r1
+xLd
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app/OAuthFacebook
+xnormal
+xi386
+lSLF07#2@144"Link /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app/OAuthFacebook318139893#318139893#0(0"0(0#0#0"8678261696#1135"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator -filelist /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/Objects-normal/i386/OAuthFacebook.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app/OAuthFacebook0#
+
+CProcessInfoPlistFile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app/Info.plist OAuthFacebook-Info.plist
+s318139889.854920
+e318139889.861675
+r1
+xProcessInfoPlistFile
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app/Info.plist
+xOAuthFacebook-Info.plist
+lSLF07#2@32"Process OAuthFacebook-Info.plist318139889#318139889#0(0"0(0#0#104"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/OAuthFacebook-Info.plist8674598816#620"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility OAuthFacebook-Info.plist -genpkginfo /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app/Info.plist0#
+
+CProcessPCH /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthFacebook_Prefix-dmtvelhcfosgigakepqsqreelksv/OAuthFacebook_Prefix.pch.gch OAuthFacebook_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s318139889.925328
+e318139892.413887
+r1
+xProcessPCH
+x/var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthFacebook_Prefix-dmtvelhcfosgigakepqsqreelksv/OAuthFacebook_Prefix.pch.gch
+xOAuthFacebook_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile OAuthFacebook_Prefix.pch318139889#318139892#0(0"0(0#0#104"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/OAuthFacebook_Prefix.pch8670048032#2330"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/OAuthFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/OAuthFacebook.build/Debug-iphonesimulator/OAuthFacebook.build/DerivedSources -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/OAuthFacebook_Prefix.pch -o /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OAuthFacebook_Prefix-dmtvelhcfosgigakepqsqreelksv/OAuthFacebook_Prefix.pch.gch0#
+
+CTouch /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app
+s318139893.721090
+e318139893.725369
+r1
+xTouch
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app
+lSLF07#2@131"Touch /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app318139893#318139893#0(0"0(0#0#0"8677356128#366"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter5/OAuthFacebook/build/Debug-iphonesimulator/OAuthFacebook.app0#
+

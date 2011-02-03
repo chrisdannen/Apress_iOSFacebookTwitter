@@ -9,28 +9,32 @@
 #import "AppDelegate_iPhone.h"
 #import "HelloFacebookViewController.h"
 
-@implementation AppDelegate_iPhone
+Facebook	*facebook;
+NSString	*appID	= @"114442211957627";
 
-@synthesize window;
+@implementation AppDelegate_iPhone
 
 
 #pragma mark -
 #pragma mark Application lifecycle
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {  
+	
+	// Initialization code.
+	facebook	= [[Facebook alloc]	initWithAppId:appID];
     
 	CGRect screenBounds = [[UIScreen mainScreen] bounds];
 	window = [[UIWindow alloc] initWithFrame:screenBounds];
 	
     // Override point for customization after application launch.
 	helloFacebookViewController = [[HelloFacebookViewController alloc] init];
-    if ([self.window respondsToSelector:@selector(setRootViewController:)]) {
-		[self.window setRootViewController:helloFacebookViewController];
+    if ([window respondsToSelector:@selector(setRootViewController:)]) {
+		[window setRootViewController:helloFacebookViewController];
 	} else {
-		[self.window addSubview:helloFacebookViewController.view];
+		[window addSubview:helloFacebookViewController.view];
 	}
 
-    [self.window makeKeyAndVisible];
+    [window makeKeyAndVisible];
     
     return YES;
 }
@@ -83,8 +87,14 @@
      */
 }
 
+#pragma mark -
+#pragma mark Facebook handleOpenURL
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+	return [facebook handleOpenURL:url];
+}
 
 - (void)dealloc {
+	[facebook release];
 	[helloFacebookViewController release];
     [window release];
     [super dealloc];

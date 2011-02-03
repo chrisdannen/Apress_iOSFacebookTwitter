@@ -7,14 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Facebook.h"
+
+extern Facebook	*facebook;
 
 @class HelloFacebookViewController;
 @interface AppDelegate_iPhone : NSObject <UIApplicationDelegate> {
     UIWindow *window;
 	HelloFacebookViewController	*helloFacebookViewController;
 }
-
-@property (nonatomic, retain) IBOutlet UIWindow *window;
 
 @end
 

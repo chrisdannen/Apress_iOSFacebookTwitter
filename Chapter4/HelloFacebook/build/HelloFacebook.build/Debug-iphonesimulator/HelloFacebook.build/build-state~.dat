@@ -1,0 +1,666 @@
+THelloFacebook
+v7
+r0
+t318140047.750344
+cCheck dependencies
+cProcessInfoPlistFile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app/Info.plist HelloFacebook-Info.plist
+cCpResource build/Debug-iphonesimulator/HelloFacebook.app/FBDialog.bundle ../../facebook-ios-sdk/src/FBDialog.bundle
+cProcessPCH /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloFacebook_Prefix-acfrefujrtvughgztciiiqzixcmw/HelloFacebook_Prefix.pch.gch HelloFacebook_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/main.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/Shared/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/AppDelegate_iPhone.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/iPhone/AppDelegate_iPhone.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/NSObject+SBJSON.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/NSString+SBJSON.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/SBJSON.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/SBJsonBase.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/SBJsonParser.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/SBJsonWriter.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/FBRequest.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/FBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/Facebook.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/Facebook.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/FBLoginDialog.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/FBLoginDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/FBDialog.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/FBDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/HelloFacebookViewController.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/HelloFacebookViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/HelloFacebookView.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/HelloFacebookView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app/HelloFacebook normal i386
+cGenerateDSYMFile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app.dSYM /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app/HelloFacebook
+cTouch /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/FBDialog.bundle
+c000000004D21606E0000000000000066
+t1294033006
+s102
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/FBDialog.m
+c000000004D21606E000000000000576F
+t1294033006
+s22383
+i"FBDialog.h"
+i"Facebook.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/FBLoginDialog.m
+c000000004D21606E0000000000000BC4
+t1294033006
+s3012
+i"FBDialog.h"
+i"FBLoginDialog.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/FBRequest.m
+c000000004D21606E0000000000002C39
+t1294033006
+s11321
+i"FBRequest.h"
+i"JSON.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/Facebook.h
+c000000004D21606E0000000000000C94
+t1294033006
+s3220
+i"FBLoginDialog.h"
+i"FBRequest.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/Facebook.m
+c000000004D4266E40000000000005285
+t1296197348
+s21125
+i"Facebook.h"
+i"FBLoginDialog.h"
+i"FBRequest.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/JSON.h
+c000000004D21606E00000000000008F9
+t1294033006
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/NSObject+SBJSON.m
+c000000004D21606E000000000000089E
+t1294033006
+s2206
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/NSString+SBJSON.m
+c000000004D21606E000000000000087D
+t1294033006
+s2173
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/SBJSON.m
+c000000004D21606E0000000000001ABC
+t1294033006
+s6844
+i"SBJSON.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/SBJsonBase.m
+c000000004D21606E0000000000000AC1
+t1294033006
+s2753
+i"SBJsonBase.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/SBJsonParser.m
+c000000004D21606E00000000000036D0
+t1294033006
+s14032
+i"SBJsonParser.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/SBJsonWriter.m
+c000000004D21606E0000000000001F26
+t1294033006
+s7974
+i"SBJsonWriter.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/HelloFacebookView.h
+c000000004D46370A000000000000010D
+t1296447242
+s269
+i<UIKit/UIKit.h>
+i"Facebook.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/HelloFacebookView.m
+c000000004D4636F30000000000000944
+t1296447219
+s2372
+i"HelloFacebookView.h"
+i"AppDelegate_iPhone.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/HelloFacebookViewController.h
+c000000004D240ABE0000000000000104
+t1294207678
+s260
+i<UIKit/UIKit.h>
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/HelloFacebookViewController.m
+c000000004D255D8A000000000000053A
+t1294294410
+s1338
+i"HelloFacebookViewController.h"
+i"HelloFacebookView.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/HelloFacebook_Prefix.pch
+c000000004D215D5500000000000000C3
+t1294032213
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/Shared/main.m
+c000000004D240D890000000000000185
+t1294208393
+s389
+i<UIKit/UIKit.h>
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app
+t1296447247
+s204
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app.dSYM
+t1296447247
+s102
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app/FBDialog.bundle
+t1296447245
+s102
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app/HelloFacebook
+t1296447247
+s131612
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app/Info.plist
+t1296447245
+s950
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app/MainWindow_iPad.nib
+t1294208121
+s982
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app/MainWindow_iPhone.nib
+t1294208121
+s984
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app/PkgInfo
+t1296447245
+s8
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/AppDelegate_iPad.o
+t1294208140
+s50224
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/AppDelegate_iPhone.o
+t1296447246
+s54104
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/FBDialog.o
+t1296447247
+s109832
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/FBLoginDialog.o
+t1296447247
+s43980
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/FBRequest.o
+t1296447247
+s43784
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/Facebook.o
+t1296447247
+s75612
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/HelloFacebook.LinkFileList
+c000000004D46370D0000000000000A08
+t1296447245
+s2568
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/HelloFacebookView.o
+t1296447247
+s49720
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/HelloFacebookViewController.o
+t1296447247
+s40356
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/NSObject+SBJSON.o
+t1296447246
+s8420
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/NSString+SBJSON.o
+t1296447246
+s8340
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/SBJSON.o
+t1296447246
+s20208
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/SBJsonBase.o
+t1296447246
+s13340
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/SBJsonParser.o
+t1296447246
+s36068
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/SBJsonWriter.o
+t1296447246
+s25676
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/main.o
+t1296447246
+s6580
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/iPad/AppDelegate_iPad.h
+c000000004D240AFC00000000000001AC
+t1294207740
+s428
+i<UIKit/UIKit.h>
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/iPad/AppDelegate_iPad.m
+c000000004D240C6F0000000000000827
+t1294208111
+s2087
+i"AppDelegate_iPad.h"
+i"HelloFacebookViewController.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/iPad/MainWindow_iPad.xib
+c000000004D215D5500000000000036E1
+t1294032213
+s14049
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/iPhone/AppDelegate_iPhone.h
+c000000004D2560DD00000000000001A7
+t1294295261
+s423
+i<UIKit/UIKit.h>
+i"Facebook.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/iPhone/AppDelegate_iPhone.m
+c000000004D2560ED0000000000000D1D
+t1294295277
+s3357
+i"AppDelegate_iPhone.h"
+i"HelloFacebookViewController.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/iPhone/MainWindow_iPhone.xib
+c000000004D215D560000000000003910
+t1294032214
+s14608
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/facebook-ios-sdk/src/FBDialog.h
+c000000004D21606E0000000000001246
+t1294033006
+s4678
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/facebook-ios-sdk/src/FBLoginDialog.h
+c000000004D21606E000000000000056B
+t1294033006
+s1387
+i"FBDialog.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/facebook-ios-sdk/src/FBRequest.h
+c000000004D21606E0000000000000CEA
+t1294033006
+s3306
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/facebook-ios-sdk/src/Facebook.h
+c000000004D21606E0000000000000C94
+t1294033006
+s3220
+i"FBLoginDialog.h"
+i"FBRequest.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/facebook-ios-sdk/src/JSON/NSObject+SBJSON.h
+c000000004D21606E0000000000000A01
+t1294033006
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/facebook-ios-sdk/src/JSON/NSString+SBJSON.h
+c000000004D21606E0000000000000916
+t1294033006
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/facebook-ios-sdk/src/JSON/SBJSON.h
+c000000004D21606E0000000000000AED
+t1294033006
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/facebook-ios-sdk/src/JSON/SBJsonBase.h
+c000000004D21606E0000000000000B82
+t1294033006
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/facebook-ios-sdk/src/JSON/SBJsonParser.h
+c000000004D21606E0000000000000C0B
+t1294033006
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/facebook-ios-sdk/src/JSON/SBJsonWriter.h
+c000000004D21606E0000000000001140
+t1294033006
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloFacebook_Prefix-acfrefujrtvughgztciiiqzixcmw/HelloFacebook_Prefix.pch.gch
+t1296447246
+s15453392
+
+NHelloFacebook-Info.plist
+c000000004D4117C500000000000005BF
+t1296111557
+s1471
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318140045#318140045#0(0"0(0#1#0"8678191136#0"0#
+
+CCompileC build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/AppDelegate_iPad.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/iPad/AppDelegate_iPad.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315900940.504423
+e315900940.694593
+r1
+xCompileC
+xbuild/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/AppDelegate_iPad.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/iPad/AppDelegate_iPad.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@111"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/iPad/AppDelegate_iPad.m315900940#315900940#0(0"0(0#0#103"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/iPad/AppDelegate_iPad.m8619599968#2514"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloFacebook_Prefix-acfrefujrtvughgztciiiqzixcmw/HelloFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/iPad/AppDelegate_iPad.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/AppDelegate_iPad.o0#
+
+CCompileC build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/AppDelegate_iPhone.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/iPhone/AppDelegate_iPhone.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318140046.253982
+e318140046.489610
+r1
+xCompileC
+xbuild/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/AppDelegate_iPhone.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/iPhone/AppDelegate_iPhone.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@115"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/iPhone/AppDelegate_iPhone.m318140046#318140046#0(0"0(0#0#107"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/iPhone/AppDelegate_iPhone.m8677467232#2520"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloFacebook_Prefix-acfrefujrtvughgztciiiqzixcmw/HelloFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/iPhone/AppDelegate_iPhone.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/AppDelegate_iPhone.o0#
+
+CCompileC build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/FBDialog.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/FBDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318140047.216253
+e318140047.667805
+r1
+xCompileC
+xbuild/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/FBDialog.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/FBDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@125"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/FBDialog.m318140047#318140047#0(0"0(0#0#117"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/FBDialog.m8674810240#2520"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloFacebook_Prefix-acfrefujrtvughgztciiiqzixcmw/HelloFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/FBDialog.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/FBDialog.o0#
+
+CCompileC build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/FBLoginDialog.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/FBLoginDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318140047.192535
+e318140047.319410
+r1
+xCompileC
+xbuild/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/FBLoginDialog.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/FBLoginDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@130"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/FBLoginDialog.m318140047#318140047#0(0"0(0#0#122"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/FBLoginDialog.m8678180736#2530"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloFacebook_Prefix-acfrefujrtvughgztciiiqzixcmw/HelloFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/FBLoginDialog.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/FBLoginDialog.o0#
+
+CCompileC build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/FBRequest.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/FBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318140046.948526
+e318140047.192436
+r1
+xCompileC
+xbuild/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/FBRequest.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/FBRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@126"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/FBRequest.m318140046#318140047#0(0"0(0#0#118"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/FBRequest.m8671351936#2522"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloFacebook_Prefix-acfrefujrtvughgztciiiqzixcmw/HelloFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/FBRequest.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/FBRequest.o0#
+
+CCompileC build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/Facebook.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/Facebook.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318140046.990073
+e318140047.216150
+r1
+xCompileC
+xbuild/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/Facebook.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/Facebook.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@125"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/Facebook.m318140046#318140047#0(0"0(0#0#117"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/Facebook.m8669618016#2520"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloFacebook_Prefix-acfrefujrtvughgztciiiqzixcmw/HelloFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/Facebook.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/Facebook.o0#
+
+CCompileC build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/HelloFacebookView.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/HelloFacebookView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318140047.460823
+e318140047.562735
+r1
+xCompileC
+xbuild/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/HelloFacebookView.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/HelloFacebookView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/HelloFacebookView.m318140047#318140047#0(0"0(0#0#99"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/HelloFacebookView.m8675436096#2511"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloFacebook_Prefix-acfrefujrtvughgztciiiqzixcmw/HelloFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/HelloFacebookView.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/HelloFacebookView.o0#
+
+CCompileC build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/HelloFacebookViewController.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/HelloFacebookViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318140047.319654
+e318140047.460725
+r1
+xCompileC
+xbuild/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/HelloFacebookViewController.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/HelloFacebookViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@117"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/HelloFacebookViewController.m318140047#318140047#0(0"0(0#0#109"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/HelloFacebookViewController.m8673001376#2531"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloFacebook_Prefix-acfrefujrtvughgztciiiqzixcmw/HelloFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/HelloFacebookViewController.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/HelloFacebookViewController.o0#
+
+CCompileC build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/NSObject+SBJSON.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318140046.442503
+e318140046.526632
+r1
+xCompileC
+xbuild/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/NSObject+SBJSON.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@137"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/NSObject+SBJSON.m318140046#318140046#0(0"0(0#0#129"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/NSObject+SBJSON.m8673154208#2539"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloFacebook_Prefix-acfrefujrtvughgztciiiqzixcmw/HelloFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/NSObject+SBJSON.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/NSObject+SBJSON.o0#
+
+CCompileC build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/NSString+SBJSON.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318140046.489721
+e318140046.575753
+r1
+xCompileC
+xbuild/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/NSString+SBJSON.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@137"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/NSString+SBJSON.m318140046#318140046#0(0"0(0#0#129"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/NSString+SBJSON.m8668002336#2539"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloFacebook_Prefix-acfrefujrtvughgztciiiqzixcmw/HelloFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/NSString+SBJSON.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/NSString+SBJSON.o0#
+
+CCompileC build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/SBJSON.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318140046.526729
+e318140046.660992
+r1
+xCompileC
+xbuild/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/SBJSON.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@128"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/SBJSON.m318140046#318140046#0(0"0(0#0#120"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/SBJSON.m8669288736#2521"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloFacebook_Prefix-acfrefujrtvughgztciiiqzixcmw/HelloFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/SBJSON.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/SBJSON.o0#
+
+CCompileC build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/SBJsonBase.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318140046.576014
+e318140046.785957
+r1
+xCompileC
+xbuild/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/SBJsonBase.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@132"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/SBJsonBase.m318140046#318140046#0(0"0(0#0#124"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/SBJsonBase.m8668568864#2529"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloFacebook_Prefix-acfrefujrtvughgztciiiqzixcmw/HelloFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/SBJsonBase.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/SBJsonBase.o0#
+
+CCompileC build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/SBJsonParser.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318140046.661093
+e318140046.989928
+r1
+xCompileC
+xbuild/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/SBJsonParser.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@134"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/SBJsonParser.m318140046#318140046#0(0"0(0#0#126"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/SBJsonParser.m8677969728#2533"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloFacebook_Prefix-acfrefujrtvughgztciiiqzixcmw/HelloFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/SBJsonParser.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/SBJsonParser.o0#
+
+CCompileC build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/SBJsonWriter.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318140046.786057
+e318140046.948415
+r1
+xCompileC
+xbuild/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@134"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/SBJsonWriter.m318140046#318140046#0(0"0(0#0#126"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/SBJsonWriter.m8674331904#2533"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloFacebook_Prefix-acfrefujrtvughgztciiiqzixcmw/HelloFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/JSON/SBJsonWriter.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/SBJsonWriter.o0#
+
+CCompileC build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/main.o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/Shared/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318140046.251870
+e318140046.442343
+r1
+xCompileC
+xbuild/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/main.o
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/Shared/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/Shared/main.m318140046#318140046#0(0"0(0#0#93"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/Shared/main.m8678323232#2492"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/DerivedSources -include /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloFacebook_Prefix-acfrefujrtvughgztciiiqzixcmw/HelloFacebook_Prefix.pch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/Shared/main.m -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/iPad/MainWindow_iPad.xib
+s315900913.629125
+e315900921.813511
+r1
+xCompileXIB
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/iPad/MainWindow_iPad.xib
+lSLF07#2@35"CompileXIB iPad/MainWindow_iPad.xib315900913#315900921#0(0"0(0#0#104"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/iPad/MainWindow_iPad.xib8616305568#714"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app/MainWindow_iPad.nib /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/iPad/MainWindow_iPad.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/iPhone/MainWindow_iPhone.xib
+s315900913.626329
+e315900921.813288
+r1
+xCompileXIB
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/iPhone/MainWindow_iPhone.xib
+lSLF07#2@39"CompileXIB iPhone/MainWindow_iPhone.xib315900913#315900921#0(0"0(0#0#108"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/iPhone/MainWindow_iPhone.xib8616754400#720"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app/MainWindow_iPhone.nib /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/iPhone/MainWindow_iPhone.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/HelloFacebook.app/FBDialog.bundle ../../facebook-ios-sdk/src/FBDialog.bundle
+s318140045.055158
+e318140045.065713
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HelloFacebook.app/FBDialog.bundle
+x../../facebook-ios-sdk/src/FBDialog.bundle
+lSLF07#2@47"Copy ../../facebook-ios-sdk/src/FBDialog.bundle318140045#318140045#0(0"0(0#0#122"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/FBDialog.bundle8674162880#629"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/../../facebook-ios-sdk/src/FBDialog.bundle /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app0#
+
+CGenerateDSYMFile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app.dSYM /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app/HelloFacebook
+s318140047.709850
+e318140047.744622
+r1
+xGenerateDSYMFile
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app.dSYM
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app/HelloFacebook
+lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/HelloFacebook.app.dSYM build/Debug-iphonesimulator/HelloFacebook.app/HelloFacebook318140047#318140047#0(0"0(0#0#139"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app/HelloFacebook8668789760#524"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app/HelloFacebook -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app.dSYM0#
+
+CLd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app/HelloFacebook normal i386
+s318140047.667901
+e318140047.709735
+r1
+xLd
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app/HelloFacebook
+xnormal
+xi386
+lSLF07#2@144"Link /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app/HelloFacebook318140047#318140047#0(0"0(0#0#0"8673323424#1135"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator -filelist /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/Objects-normal/i386/HelloFacebook.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app/HelloFacebook0#
+
+CProcessInfoPlistFile /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app/Info.plist HelloFacebook-Info.plist
+s318140045.051680
+e318140045.055071
+r1
+xProcessInfoPlistFile
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app/Info.plist
+xHelloFacebook-Info.plist
+lSLF07#2@32"Process HelloFacebook-Info.plist318140045#318140045#0(0"0(0#0#104"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/HelloFacebook-Info.plist8675541472#620"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility HelloFacebook-Info.plist -genpkginfo /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app/Info.plist0#
+
+CProcessPCH /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloFacebook_Prefix-acfrefujrtvughgztciiiqzixcmw/HelloFacebook_Prefix.pch.gch HelloFacebook_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s318140045.065869
+e318140046.251742
+r1
+xProcessPCH
+x/var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloFacebook_Prefix-acfrefujrtvughgztciiiqzixcmw/HelloFacebook_Prefix.pch.gch
+xHelloFacebook_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile HelloFacebook_Prefix.pch318140045#318140046#0(0"0(0#0#104"/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/HelloFacebook_Prefix.pch8673435712#2330"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-generated-files.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-own-target-headers.hmap -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-all-target-headers.hmap -iquote /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/HelloFacebook-project-headers.hmap -F/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/include -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/DerivedSources/i386 -I/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/HelloFacebook.build/Debug-iphonesimulator/HelloFacebook.build/DerivedSources -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/HelloFacebook_Prefix.pch -o /var/folders/G+/G+bju8UvEPuDpOcuAOY-l++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloFacebook_Prefix-acfrefujrtvughgztciiiqzixcmw/HelloFacebook_Prefix.pch.gch0#
+
+CTouch /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app
+s318140047.744838
+e318140047.750291
+r1
+xTouch
+x/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app
+lSLF07#2@131"Touch /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app318140047#318140047#0(0"0(0#0#0"8670928992#366"    cd /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/build/Debug-iphonesimulator/HelloFacebook.app0#
+

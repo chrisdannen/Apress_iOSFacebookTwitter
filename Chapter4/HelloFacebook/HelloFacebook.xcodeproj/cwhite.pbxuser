@@ -6,10 +6,44 @@
 			E1CD41C012D194D600AB29E9 /* HelloFacebook */,
 		);
 	};
+	2860E325111B887F00E27156 /* AppDelegate_iPhone.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {940, 580}}";
+			sepNavSelRange = "{337, 76}";
+			sepNavVisRange = "{0, 423}";
+		};
+	};
+	2860E326111B887F00E27156 /* AppDelegate_iPhone.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1378}}";
+			sepNavSelRange = "{268, 15}";
+			sepNavVisRange = "{0, 1601}";
+		};
+	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = E1CD41C012D194D600AB29E9 /* HelloFacebook */;
+		activeSDKPreference = iphonesimulator4.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* HelloFacebook */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* HelloFacebook */,
+		);
+		breakpoints = (
+			E1AE7F0D12D44EA000CE8205 /* HelloFacebookViewController.m:52 */,
+			E1AE7F3D12D5950100CE8205 /* HelloFacebookViewController.m:45 */,
+			E1AE7F7612D5987C00CE8205 /* AppDelegate_iPhone.m:93 */,
+			E1F80E6D12F14E68004E65AD /* Facebook.m:148 */,
+			E1CA74B912F29B6D009CB412 /* FBDialog.m:540 */,
+			E1CA74BB12F29B7D009CB412 /* FBDialog.m:589 */,
+			E1CA74CB12F64350009CB412 /* Facebook.m:397 */,
+			E1CA74CF12F64552009CB412 /* HelloFacebookView.m:76 */,
+			E1CA74F412F647AA009CB412 /* FBRequest.m:335 */,
+			E1CA74F612F647B0009CB412 /* FBRequest.m:339 */,
+			E1CA74F812F647B2009CB412 /* FBRequest.m:348 */,
+			E1CA74FC12F64A87009CB412 /* HelloFacebookView.m:22 */,
+			E1CA752712F64F3B009CB412 /* HelloFacebookView.m:57 */,
+			E1CA753812F650B3009CB412 /* HelloFacebookView.m:71 */,
+		);
 		codeSenseManager = E1CD41D012D194F100AB29E9 /* Code sense */;
 		executables = (
 			E1CD41C012D194D600AB29E9 /* HelloFacebook */,
@@ -20,9 +54,9 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					341,
+					762,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -42,10 +76,10 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					301,
+					722,
 					60,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 				);
@@ -59,11 +93,498 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 315725014;
-			PBXWorkspaceStateSaveDate = 315725014;
+			PBXPerProjectTemplateStateSaveDate = 318394221;
+			PBXWorkspaceStateSaveDate = 318394221;
+		};
+		perUserProjectItems = {
+			E175039712FA4F7F00EB05F6 /* PBXTextBookmark */ = E175039712FA4F7F00EB05F6 /* PBXTextBookmark */;
+			E175039812FA4F7F00EB05F6 /* PBXTextBookmark */ = E175039812FA4F7F00EB05F6 /* PBXTextBookmark */;
+			E1AE7F3312D594BF00CE8205 = E1AE7F3312D594BF00CE8205 /* PBXTextBookmark */;
+			E1CA762012F660BB009CB412 = E1CA762012F660BB009CB412 /* PlistBookmark */;
+			E1CA762112F660BB009CB412 = E1CA762112F660BB009CB412 /* PBXTextBookmark */;
+			E1CA762212F660BB009CB412 = E1CA762212F660BB009CB412 /* PBXTextBookmark */;
+			E1CA771312F66D3A009CB412 = E1CA771312F66D3A009CB412 /* PBXTextBookmark */;
+			E1CA771512F66D3A009CB412 = E1CA771512F66D3A009CB412 /* PBXTextBookmark */;
+			E1CA7A5812F69656009CB412 = E1CA7A5812F69656009CB412 /* PBXTextBookmark */;
+			E1CA7A5912F69656009CB412 = E1CA7A5912F69656009CB412 /* PBXTextBookmark */;
+			E1CA7A8512F69769009CB412 = E1CA7A8512F69769009CB412 /* PBXTextBookmark */;
+			E1CA7AF612F69ADD009CB412 = E1CA7AF612F69ADD009CB412 /* PBXTextBookmark */;
+			E1CA7AFC12F69AE2009CB412 = E1CA7AFC12F69AE2009CB412 /* PBXTextBookmark */;
+			E1CA7B0012F69EC6009CB412 = E1CA7B0012F69EC6009CB412 /* PBXTextBookmark */;
 		};
 		sourceControlManager = E1CD41CF12D194F100AB29E9 /* Source Control */;
 		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {940, 580}}";
+			sepNavSelRange = "{324, 21}";
+			sepNavVisRange = "{0, 389}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* HelloFacebook_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {940, 452}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 195}";
+		};
+	};
+	E175039712FA4F7F00EB05F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1CA7B0112F69EC6009CB412 /* MGTwitterEngine.m */;
+		name = "MGTwitterEngine.m: 626";
+		rLen = 5;
+		rLoc = 19867;
+		rType = 0;
+		vrLen = 1861;
+		vrLoc = 17863;
+	};
+	E175039812FA4F7F00EB05F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2860E326111B887F00E27156 /* AppDelegate_iPhone.m */;
+		name = "AppDelegate_iPhone.m: 13";
+		rLen = 15;
+		rLoc = 268;
+		rType = 0;
+		vrLen = 1601;
+		vrLoc = 0;
+	};
+	E1AE7E6412D440DB00CE8205 /* FBConnect.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {940, 557}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 706}";
+		};
+	};
+	E1AE7E6512D440DB00CE8205 /* FBRequest.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {940, 1547}}";
+			sepNavSelRange = "{2397, 901}";
+			sepNavVisRange = "{2181, 1125}";
+		};
+	};
+	E1AE7E6612D440DB00CE8205 /* FBRequest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {825, 4693}}";
+			sepNavSelRange = "{10958, 0}";
+			sepNavVisRange = "{10480, 597}";
+		};
+	};
+	E1AE7E6712D440DB00CE8205 /* Facebook.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {940, 7709}}";
+			sepNavSelRange = "{983, 67}";
+			sepNavVisRange = "{0, 1561}";
+			sepNavWindowFrame = "{{7, 96}, {1248, 682}}";
+		};
+	};
+	E1AE7E6812D440DB00CE8205 /* Facebook.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {940, 1430}}";
+			sepNavSelRange = "{2908, 305}";
+			sepNavVisRange = "{0, 1453}";
+		};
+	};
+	E1AE7E6A12D440DB00CE8205 /* FBLoginDialog.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1111, 1261}}";
+			sepNavSelRange = "{1096, 0}";
+			sepNavVisRange = "{772, 574}";
+		};
+	};
+	E1AE7E6C12D440DB00CE8205 /* FBDialog.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1111, 8736}}";
+			sepNavSelRange = "{19284, 0}";
+			sepNavVisRange = "{20690, 672}";
+		};
+	};
+	E1AE7E7B12D4423E00CE8205 /* HelloFacebookViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {940, 580}}";
+			sepNavSelRange = "{202, 27}";
+			sepNavVisRange = "{0, 260}";
+		};
+	};
+	E1AE7E7C12D4423E00CE8205 /* HelloFacebookViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {940, 728}}";
+			sepNavSelRange = "{285, 59}";
+			sepNavVisRange = "{0, 1286}";
+		};
+	};
+	E1AE7EAF12D449B900CE8205 /* HelloFacebookView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {940, 604}}";
+			sepNavSelRange = "{240, 0}";
+			sepNavVisRange = "{0, 269}";
+		};
+	};
+	E1AE7EB012D449B900CE8205 /* HelloFacebookView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {940, 1261}}";
+			sepNavSelRange = "{1321, 0}";
+			sepNavVisRange = "{1223, 1149}";
+		};
+	};
+	E1AE7F0D12D44EA000CE8205 /* HelloFacebookViewController.m:52 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = E1AE7E7C12D4423E00CE8205 /* HelloFacebookViewController.m */;
+		functionName = "-dealloc";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 52;
+		modificationTime = 318139769.2373;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	E1AE7F3312D594BF00CE8205 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* HelloFacebook_Prefix.pch */;
+		name = "HelloFacebook_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 195;
+		vrLoc = 0;
+	};
+	E1AE7F3D12D5950100CE8205 /* HelloFacebookViewController.m:45 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = E1AE7E7C12D4423E00CE8205 /* HelloFacebookViewController.m */;
+		functionName = "-viewDidUnload";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 45;
+		modificationTime = 318139769.235899;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	E1AE7F7612D5987C00CE8205 /* AppDelegate_iPhone.m:93 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2860E326111B887F00E27156 /* AppDelegate_iPhone.m */;
+		functionName = "-application:openURL:sourceApplication:annotation:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 93;
+		modificationTime = 318139769.2369019;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	E1CA74B912F29B6D009CB412 /* FBDialog.m:540 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = E1AE7E6C12D440DB00CE8205 /* FBDialog.m */;
+		functionName = "-load";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 540;
+		modificationTime = 318139760.510295;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	E1CA74BB12F29B7D009CB412 /* FBDialog.m:589 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = E1AE7E6C12D440DB00CE8205 /* FBDialog.m */;
+		functionName = "-show";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 589;
+		modificationTime = 318139760.510324;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	E1CA74CB12F64350009CB412 /* Facebook.m:397 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = E1AE7E6712D440DB00CE8205 /* Facebook.m */;
+		functionName = "-requestWithMethodName:andParams:andHttpMethod:andDelegate:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 397;
+		modificationTime = 318139760.5103561;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	E1CA74CF12F64552009CB412 /* HelloFacebookView.m:76 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = E1AE7EB012D449B900CE8205 /* HelloFacebookView.m */;
+		functionName = "-request:didLoad:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 76;
+		modificationTime = 318139769.236451;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	E1CA74F412F647AA009CB412 /* FBRequest.m:335 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = E1AE7E6612D440DB00CE8205 /* FBRequest.m */;
+		functionName = "-connection:willCacheResponse:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 335;
+		modificationTime = 318139760.510515;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	E1CA74F612F647B0009CB412 /* FBRequest.m:339 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = E1AE7E6612D440DB00CE8205 /* FBRequest.m */;
+		functionName = "-connectionDidFinishLoading:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 339;
+		modificationTime = 318139760.51055;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	E1CA74F812F647B2009CB412 /* FBRequest.m:348 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = E1AE7E6612D440DB00CE8205 /* FBRequest.m */;
+		functionName = "-connection:didFailWithError:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 348;
+		modificationTime = 318139760.510579;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	E1CA74FC12F64A87009CB412 /* HelloFacebookView.m:22 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = E1AE7EB012D449B900CE8205 /* HelloFacebookView.m */;
+		functionName = "-initWithFrame:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 22;
+		modificationTime = 318139769.235965;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	E1CA752712F64F3B009CB412 /* HelloFacebookView.m:57 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = E1AE7EB012D449B900CE8205 /* HelloFacebookView.m */;
+		functionName = "-request:didFailWithError:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 57;
+		modificationTime = 318139769.236742;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	E1CA753812F650B3009CB412 /* HelloFacebookView.m:71 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = E1AE7EB012D449B900CE8205 /* HelloFacebookView.m */;
+		functionName = "-request:didLoad:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 71;
+		modificationTime = 318139769.2365612;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	E1CA762012F660BB009CB412 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* HelloFacebook-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleURLTypes,
+		);
+		name = "/Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/Chapter4/HelloFacebook/HelloFacebook-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	E1CA762112F660BB009CB412 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2860E326111B887F00E27156 /* AppDelegate_iPhone.m */;
+		name = "AppDelegate_iPhone.m: 26";
+		rLen = 490;
+		rLoc = 573;
+		rType = 0;
+		vrLen = 1555;
+		vrLoc = 49;
+	};
+	E1CA762212F660BB009CB412 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2860E325111B887F00E27156 /* AppDelegate_iPhone.h */;
+		name = "AppDelegate_iPhone.h: 16";
+		rLen = 76;
+		rLoc = 337;
+		rType = 0;
+		vrLen = 423;
+		vrLoc = 0;
+	};
+	E1CA771312F66D3A009CB412 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 14";
+		rLen = 21;
+		rLoc = 324;
+		rType = 0;
+		vrLen = 389;
+		vrLoc = 0;
+	};
+	E1CA771512F66D3A009CB412 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1AE7E7B12D4423E00CE8205 /* HelloFacebookViewController.h */;
+		name = "HelloFacebookViewController.h: 12";
+		rLen = 27;
+		rLoc = 202;
+		rType = 0;
+		vrLen = 260;
+		vrLoc = 0;
+	};
+	E1CA7A5812F69656009CB412 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1AE7EAF12D449B900CE8205 /* HelloFacebookView.h */;
+		name = "HelloFacebookView.h: 12";
+		rLen = 0;
+		rLoc = 240;
+		rType = 0;
+		vrLen = 269;
+		vrLoc = 0;
+	};
+	E1CA7A5912F69656009CB412 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1AE7E7C12D4423E00CE8205 /* HelloFacebookViewController.m */;
+		name = "HelloFacebookViewController.m: 14";
+		rLen = 59;
+		rLoc = 285;
+		rType = 0;
+		vrLen = 1286;
+		vrLoc = 0;
+	};
+	E1CA7A8512F69769009CB412 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1AE7E6712D440DB00CE8205 /* Facebook.m */;
+		name = "Facebook.m: 28";
+		rLen = 67;
+		rLoc = 983;
+		rType = 0;
+		vrLen = 1561;
+		vrLoc = 0;
+	};
+	E1CA7AF612F69ADD009CB412 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1CA7AF712F69ADD009CB412 /* MGTwitterEngine.m */;
+		rLen = 5;
+		rLoc = 19867;
+		rType = 0;
+	};
+	E1CA7AF712F69ADD009CB412 /* MGTwitterEngine.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = MGTwitterEngine.m;
+		path = /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/MGTwitterEngine/MGTwitterEngine.m;
+		sourceTree = "<absolute>";
+	};
+	E1CA7AFC12F69AE2009CB412 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1AE7EB012D449B900CE8205 /* HelloFacebookView.m */;
+		name = "HelloFacebookView.m: 56";
+		rLen = 0;
+		rLoc = 1321;
+		rType = 0;
+		vrLen = 1149;
+		vrLoc = 1223;
+	};
+	E1CA7B0012F69EC6009CB412 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1CA7B0112F69EC6009CB412 /* MGTwitterEngine.m */;
+		name = "MGTwitterEngine.m: 626";
+		rLen = 5;
+		rLoc = 19867;
+		rType = 0;
+		vrLen = 1095;
+		vrLoc = 19215;
+	};
+	E1CA7B0112F69EC6009CB412 /* MGTwitterEngine.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = MGTwitterEngine.m;
+		path = /Users/cwhite/Documents/Apress/Apress_iOSFacebookTwitter/MGTwitterEngine/MGTwitterEngine.m;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1069, 28275}}";
+			sepNavSelRange = "{19867, 5}";
+			sepNavVisRange = "{17863, 1861}";
 		};
 	};
 	E1CD41C012D194D600AB29E9 /* HelloFacebook */ = {
@@ -82,6 +603,7 @@
 		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -89,9 +611,13 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = HelloFacebook;
+		savedGlobals = {
+		};
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
+		variableFormatDictionary = {
+		};
 	};
 	E1CD41CF12D194F100AB29E9 /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -106,5 +632,22 @@
 	E1CD41D012D194F100AB29E9 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	E1F80E6D12F14E68004E65AD /* Facebook.m:148 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = E1AE7E6712D440DB00CE8205 /* Facebook.m */;
+		functionName = "-authorizeWithFBAppAuth:safariAuth:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 148;
+		modificationTime = 318139760.510258;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
 	};
 }

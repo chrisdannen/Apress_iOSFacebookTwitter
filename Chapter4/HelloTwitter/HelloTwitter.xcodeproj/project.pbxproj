@@ -10,27 +10,137 @@
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		2860E328111B887F00E27156 /* AppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E326111B887F00E27156 /* AppDelegate_iPhone.m */; };
-		2860E329111B887F00E27156 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E327111B887F00E27156 /* MainWindow_iPhone.xib */; };
-		2860E32E111B888700E27156 /* AppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E32C111B888700E27156 /* AppDelegate_iPad.m */; };
-		2860E32F111B888700E27156 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E32D111B888700E27156 /* MainWindow_iPad.xib */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		E1CA77CF12F68254009CB412 /* TwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA77CE12F68254009CB412 /* TwitterViewController.m */; };
+		E1CA77D212F682BE009CB412 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA77D112F682BE009CB412 /* AppDelegate.m */; };
+		E1CA77F512F6831A009CB412 /* HelloTwitterView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA77F412F6831A009CB412 /* HelloTwitterView.m */; };
+		E1CA786212F68524009CB412 /* MGTwitterEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA782F12F68524009CB412 /* MGTwitterEngine.m */; };
+		E1CA786312F68524009CB412 /* MGTwitterHTTPURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA783312F68524009CB412 /* MGTwitterHTTPURLConnection.m */; };
+		E1CA786412F68524009CB412 /* MGTwitterLibXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA783512F68524009CB412 /* MGTwitterLibXMLParser.m */; };
+		E1CA786512F68524009CB412 /* MGTwitterMessagesLibXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA783712F68524009CB412 /* MGTwitterMessagesLibXMLParser.m */; };
+		E1CA786612F68524009CB412 /* MGTwitterMessagesParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA783912F68524009CB412 /* MGTwitterMessagesParser.m */; };
+		E1CA786812F68524009CB412 /* MGTwitterMiscLibXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA783D12F68524009CB412 /* MGTwitterMiscLibXMLParser.m */; };
+		E1CA786912F68524009CB412 /* MGTwitterMiscParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA783F12F68524009CB412 /* MGTwitterMiscParser.m */; };
+		E1CA786C12F68524009CB412 /* MGTwitterSocialGraphLibXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA784712F68524009CB412 /* MGTwitterSocialGraphLibXMLParser.m */; };
+		E1CA786D12F68524009CB412 /* MGTwitterSocialGraphParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA784912F68524009CB412 /* MGTwitterSocialGraphParser.m */; };
+		E1CA786E12F68524009CB412 /* MGTwitterStatusesLibXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA784B12F68524009CB412 /* MGTwitterStatusesLibXMLParser.m */; };
+		E1CA786F12F68524009CB412 /* MGTwitterStatusesParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA784D12F68524009CB412 /* MGTwitterStatusesParser.m */; };
+		E1CA787212F68524009CB412 /* MGTwitterUserListsParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA785312F68524009CB412 /* MGTwitterUserListsParser.m */; };
+		E1CA787312F68524009CB412 /* MGTwitterUsersLibXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA785512F68524009CB412 /* MGTwitterUsersLibXMLParser.m */; };
+		E1CA787412F68524009CB412 /* MGTwitterUsersParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA785712F68524009CB412 /* MGTwitterUsersParser.m */; };
+		E1CA787612F68524009CB412 /* MGTwitterXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA785B12F68524009CB412 /* MGTwitterXMLParser.m */; };
+		E1CA787812F68524009CB412 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA785F12F68524009CB412 /* NSData+Base64.m */; };
+		E1CA787912F68524009CB412 /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA786112F68524009CB412 /* NSString+UUID.m */; };
+		E1CA78BB12F686C1009CB412 /* NSMutableURLRequest+Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA789612F686C1009CB412 /* NSMutableURLRequest+Parameters.m */; };
+		E1CA78BC12F686C1009CB412 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA789812F686C1009CB412 /* NSString+URLEncoding.m */; };
+		E1CA78BD12F686C1009CB412 /* NSURL+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA789A12F686C1009CB412 /* NSURL+Base.m */; };
+		E1CA78BE12F686C1009CB412 /* Base64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = E1CA789C12F686C1009CB412 /* Base64Transcoder.c */; };
+		E1CA78BF12F686C1009CB412 /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = E1CA789E12F686C1009CB412 /* hmac.c */; };
+		E1CA78C012F686C1009CB412 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = E1CA78A012F686C1009CB412 /* sha1.c */; };
+		E1CA78C112F686C1009CB412 /* OACall.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA78A312F686C1009CB412 /* OACall.m */; };
+		E1CA78C212F686C1009CB412 /* OAConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA78A512F686C1009CB412 /* OAConsumer.m */; };
+		E1CA78C312F686C1009CB412 /* OADataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA78A712F686C1009CB412 /* OADataFetcher.m */; };
+		E1CA78C412F686C1009CB412 /* OAHMAC_SHA1SignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA78A912F686C1009CB412 /* OAHMAC_SHA1SignatureProvider.m */; };
+		E1CA78C512F686C1009CB412 /* OAMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA78AB12F686C1009CB412 /* OAMutableURLRequest.m */; };
+		E1CA78C612F686C1009CB412 /* OAPlaintextSignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA78AD12F686C1009CB412 /* OAPlaintextSignatureProvider.m */; };
+		E1CA78C712F686C1009CB412 /* OAProblem.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA78AF12F686C1009CB412 /* OAProblem.m */; };
+		E1CA78C812F686C1009CB412 /* OARequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA78B112F686C1009CB412 /* OARequestParameter.m */; };
+		E1CA78C912F686C1009CB412 /* OAServiceTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA78B312F686C1009CB412 /* OAServiceTicket.m */; };
+		E1CA78CB12F686C1009CB412 /* OAToken.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA78B712F686C1009CB412 /* OAToken.m */; };
+		E1CA78CC12F686C1009CB412 /* OATokenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA78B912F686C1009CB412 /* OATokenManager.m */; };
+		E1CA798412F68F9C009CB412 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CA798312F68F9C009CB412 /* libxml2.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* HelloTwitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloTwitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		2860E325111B887F00E27156 /* AppDelegate_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_iPhone.h; sourceTree = "<group>"; };
-		2860E326111B887F00E27156 /* AppDelegate_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_iPhone.m; sourceTree = "<group>"; };
-		2860E327111B887F00E27156 /* MainWindow_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow_iPhone.xib; sourceTree = "<group>"; };
-		2860E32B111B888700E27156 /* AppDelegate_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_iPad.h; sourceTree = "<group>"; };
-		2860E32C111B888700E27156 /* AppDelegate_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_iPad.m; sourceTree = "<group>"; };
-		2860E32D111B888700E27156 /* MainWindow_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow_iPad.xib; sourceTree = "<group>"; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Shared/main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* HelloTwitter_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloTwitter_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* HelloTwitter-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HelloTwitter-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		E1CA77CD12F68254009CB412 /* TwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwitterViewController.h; path = Shared/TwitterViewController.h; sourceTree = "<group>"; };
+		E1CA77CE12F68254009CB412 /* TwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwitterViewController.m; path = Shared/TwitterViewController.m; sourceTree = "<group>"; };
+		E1CA77D012F682BE009CB412 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Shared/AppDelegate.h; sourceTree = "<group>"; };
+		E1CA77D112F682BE009CB412 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Shared/AppDelegate.m; sourceTree = "<group>"; };
+		E1CA77F312F6831A009CB412 /* HelloTwitterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelloTwitterView.h; path = Shared/HelloTwitterView.h; sourceTree = "<group>"; };
+		E1CA77F412F6831A009CB412 /* HelloTwitterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelloTwitterView.m; path = Shared/HelloTwitterView.m; sourceTree = "<group>"; };
+		E1CA782D12F68524009CB412 /* MGTwitterEngine_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTwitterEngine_Prefix.pch; path = ../../MGTwitterEngine/MGTwitterEngine_Prefix.pch; sourceTree = "<group>"; };
+		E1CA782E12F68524009CB412 /* MGTwitterEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTwitterEngine.h; path = ../../MGTwitterEngine/MGTwitterEngine.h; sourceTree = "<group>"; };
+		E1CA782F12F68524009CB412 /* MGTwitterEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGTwitterEngine.m; path = ../../MGTwitterEngine/MGTwitterEngine.m; sourceTree = "<group>"; };
+		E1CA783012F68524009CB412 /* MGTwitterEngineDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTwitterEngineDelegate.h; path = ../../MGTwitterEngine/MGTwitterEngineDelegate.h; sourceTree = "<group>"; };
+		E1CA783112F68524009CB412 /* MGTwitterEngineGlobalHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTwitterEngineGlobalHeader.h; path = ../../MGTwitterEngine/MGTwitterEngineGlobalHeader.h; sourceTree = "<group>"; };
+		E1CA783212F68524009CB412 /* MGTwitterHTTPURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTwitterHTTPURLConnection.h; path = ../../MGTwitterEngine/MGTwitterHTTPURLConnection.h; sourceTree = "<group>"; };
+		E1CA783312F68524009CB412 /* MGTwitterHTTPURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGTwitterHTTPURLConnection.m; path = ../../MGTwitterEngine/MGTwitterHTTPURLConnection.m; sourceTree = "<group>"; };
+		E1CA783412F68524009CB412 /* MGTwitterLibXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTwitterLibXMLParser.h; path = ../../MGTwitterEngine/MGTwitterLibXMLParser.h; sourceTree = "<group>"; };
+		E1CA783512F68524009CB412 /* MGTwitterLibXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGTwitterLibXMLParser.m; path = ../../MGTwitterEngine/MGTwitterLibXMLParser.m; sourceTree = "<group>"; };
+		E1CA783612F68524009CB412 /* MGTwitterMessagesLibXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTwitterMessagesLibXMLParser.h; path = ../../MGTwitterEngine/MGTwitterMessagesLibXMLParser.h; sourceTree = "<group>"; };
+		E1CA783712F68524009CB412 /* MGTwitterMessagesLibXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGTwitterMessagesLibXMLParser.m; path = ../../MGTwitterEngine/MGTwitterMessagesLibXMLParser.m; sourceTree = "<group>"; };
+		E1CA783812F68524009CB412 /* MGTwitterMessagesParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTwitterMessagesParser.h; path = ../../MGTwitterEngine/MGTwitterMessagesParser.h; sourceTree = "<group>"; };
+		E1CA783912F68524009CB412 /* MGTwitterMessagesParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGTwitterMessagesParser.m; path = ../../MGTwitterEngine/MGTwitterMessagesParser.m; sourceTree = "<group>"; };
+		E1CA783C12F68524009CB412 /* MGTwitterMiscLibXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTwitterMiscLibXMLParser.h; path = ../../MGTwitterEngine/MGTwitterMiscLibXMLParser.h; sourceTree = "<group>"; };
+		E1CA783D12F68524009CB412 /* MGTwitterMiscLibXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGTwitterMiscLibXMLParser.m; path = ../../MGTwitterEngine/MGTwitterMiscLibXMLParser.m; sourceTree = "<group>"; };
+		E1CA783E12F68524009CB412 /* MGTwitterMiscParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTwitterMiscParser.h; path = ../../MGTwitterEngine/MGTwitterMiscParser.h; sourceTree = "<group>"; };
+		E1CA783F12F68524009CB412 /* MGTwitterMiscParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGTwitterMiscParser.m; path = ../../MGTwitterEngine/MGTwitterMiscParser.m; sourceTree = "<group>"; };
+		E1CA784212F68524009CB412 /* MGTwitterParserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTwitterParserDelegate.h; path = ../../MGTwitterEngine/MGTwitterParserDelegate.h; sourceTree = "<group>"; };
+		E1CA784312F68524009CB412 /* MGTwitterRequestTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTwitterRequestTypes.h; path = ../../MGTwitterEngine/MGTwitterRequestTypes.h; sourceTree = "<group>"; };
+		E1CA784612F68524009CB412 /* MGTwitterSocialGraphLibXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTwitterSocialGraphLibXMLParser.h; path = ../../MGTwitterEngine/MGTwitterSocialGraphLibXMLParser.h; sourceTree = "<group>"; };
+		E1CA784712F68524009CB412 /* MGTwitterSocialGraphLibXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGTwitterSocialGraphLibXMLParser.m; path = ../../MGTwitterEngine/MGTwitterSocialGraphLibXMLParser.m; sourceTree = "<group>"; };
+		E1CA784812F68524009CB412 /* MGTwitterSocialGraphParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTwitterSocialGraphParser.h; path = ../../MGTwitterEngine/MGTwitterSocialGraphParser.h; sourceTree = "<group>"; };
+		E1CA784912F68524009CB412 /* MGTwitterSocialGraphParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGTwitterSocialGraphParser.m; path = ../../MGTwitterEngine/MGTwitterSocialGraphParser.m; sourceTree = "<group>"; };
+		E1CA784A12F68524009CB412 /* MGTwitterStatusesLibXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTwitterStatusesLibXMLParser.h; path = ../../MGTwitterEngine/MGTwitterStatusesLibXMLParser.h; sourceTree = "<group>"; };
+		E1CA784B12F68524009CB412 /* MGTwitterStatusesLibXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGTwitterStatusesLibXMLParser.m; path = ../../MGTwitterEngine/MGTwitterStatusesLibXMLParser.m; sourceTree = "<group>"; };
+		E1CA784C12F68524009CB412 /* MGTwitterStatusesParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTwitterStatusesParser.h; path = ../../MGTwitterEngine/MGTwitterStatusesParser.h; sourceTree = "<group>"; };
+		E1CA784D12F68524009CB412 /* MGTwitterStatusesParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGTwitterStatusesParser.m; path = ../../MGTwitterEngine/MGTwitterStatusesParser.m; sourceTree = "<group>"; };
+		E1CA785212F68524009CB412 /* MGTwitterUserListsParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTwitterUserListsParser.h; path = ../../MGTwitterEngine/MGTwitterUserListsParser.h; sourceTree = "<group>"; };
+		E1CA785312F68524009CB412 /* MGTwitterUserListsParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGTwitterUserListsParser.m; path = ../../MGTwitterEngine/MGTwitterUserListsParser.m; sourceTree = "<group>"; };
+		E1CA785412F68524009CB412 /* MGTwitterUsersLibXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTwitterUsersLibXMLParser.h; path = ../../MGTwitterEngine/MGTwitterUsersLibXMLParser.h; sourceTree = "<group>"; };
+		E1CA785512F68524009CB412 /* MGTwitterUsersLibXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGTwitterUsersLibXMLParser.m; path = ../../MGTwitterEngine/MGTwitterUsersLibXMLParser.m; sourceTree = "<group>"; };
+		E1CA785612F68524009CB412 /* MGTwitterUsersParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTwitterUsersParser.h; path = ../../MGTwitterEngine/MGTwitterUsersParser.h; sourceTree = "<group>"; };
+		E1CA785712F68524009CB412 /* MGTwitterUsersParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGTwitterUsersParser.m; path = ../../MGTwitterEngine/MGTwitterUsersParser.m; sourceTree = "<group>"; };
+		E1CA785A12F68524009CB412 /* MGTwitterXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTwitterXMLParser.h; path = ../../MGTwitterEngine/MGTwitterXMLParser.h; sourceTree = "<group>"; };
+		E1CA785B12F68524009CB412 /* MGTwitterXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGTwitterXMLParser.m; path = ../../MGTwitterEngine/MGTwitterXMLParser.m; sourceTree = "<group>"; };
+		E1CA785E12F68524009CB412 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "../../MGTwitterEngine/NSData+Base64.h"; sourceTree = "<group>"; };
+		E1CA785F12F68524009CB412 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "../../MGTwitterEngine/NSData+Base64.m"; sourceTree = "<group>"; };
+		E1CA786012F68524009CB412 /* NSString+UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+UUID.h"; path = "../../MGTwitterEngine/NSString+UUID.h"; sourceTree = "<group>"; };
+		E1CA786112F68524009CB412 /* NSString+UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+UUID.m"; path = "../../MGTwitterEngine/NSString+UUID.m"; sourceTree = "<group>"; };
+		E1CA789512F686C1009CB412 /* NSMutableURLRequest+Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+Parameters.h"; sourceTree = "<group>"; };
+		E1CA789612F686C1009CB412 /* NSMutableURLRequest+Parameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+Parameters.m"; sourceTree = "<group>"; };
+		E1CA789712F686C1009CB412 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		E1CA789812F686C1009CB412 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		E1CA789912F686C1009CB412 /* NSURL+Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Base.h"; sourceTree = "<group>"; };
+		E1CA789A12F686C1009CB412 /* NSURL+Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Base.m"; sourceTree = "<group>"; };
+		E1CA789C12F686C1009CB412 /* Base64Transcoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Base64Transcoder.c; sourceTree = "<group>"; };
+		E1CA789D12F686C1009CB412 /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		E1CA789E12F686C1009CB412 /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+		E1CA789F12F686C1009CB412 /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		E1CA78A012F686C1009CB412 /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		E1CA78A112F686C1009CB412 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		E1CA78A212F686C1009CB412 /* OACall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OACall.h; path = ../../oauthconsumer/OACall.h; sourceTree = "<group>"; };
+		E1CA78A312F686C1009CB412 /* OACall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OACall.m; path = ../../oauthconsumer/OACall.m; sourceTree = "<group>"; };
+		E1CA78A412F686C1009CB412 /* OAConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAConsumer.h; path = ../../oauthconsumer/OAConsumer.h; sourceTree = "<group>"; };
+		E1CA78A512F686C1009CB412 /* OAConsumer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OAConsumer.m; path = ../../oauthconsumer/OAConsumer.m; sourceTree = "<group>"; };
+		E1CA78A612F686C1009CB412 /* OADataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OADataFetcher.h; path = ../../oauthconsumer/OADataFetcher.h; sourceTree = "<group>"; };
+		E1CA78A712F686C1009CB412 /* OADataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OADataFetcher.m; path = ../../oauthconsumer/OADataFetcher.m; sourceTree = "<group>"; };
+		E1CA78A812F686C1009CB412 /* OAHMAC_SHA1SignatureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAHMAC_SHA1SignatureProvider.h; path = ../../oauthconsumer/OAHMAC_SHA1SignatureProvider.h; sourceTree = "<group>"; };
+		E1CA78A912F686C1009CB412 /* OAHMAC_SHA1SignatureProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OAHMAC_SHA1SignatureProvider.m; path = ../../oauthconsumer/OAHMAC_SHA1SignatureProvider.m; sourceTree = "<group>"; };
+		E1CA78AA12F686C1009CB412 /* OAMutableURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAMutableURLRequest.h; path = ../../oauthconsumer/OAMutableURLRequest.h; sourceTree = "<group>"; };
+		E1CA78AB12F686C1009CB412 /* OAMutableURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OAMutableURLRequest.m; path = ../../oauthconsumer/OAMutableURLRequest.m; sourceTree = "<group>"; };
+		E1CA78AC12F686C1009CB412 /* OAPlaintextSignatureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAPlaintextSignatureProvider.h; path = ../../oauthconsumer/OAPlaintextSignatureProvider.h; sourceTree = "<group>"; };
+		E1CA78AD12F686C1009CB412 /* OAPlaintextSignatureProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OAPlaintextSignatureProvider.m; path = ../../oauthconsumer/OAPlaintextSignatureProvider.m; sourceTree = "<group>"; };
+		E1CA78AE12F686C1009CB412 /* OAProblem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAProblem.h; path = ../../oauthconsumer/OAProblem.h; sourceTree = "<group>"; };
+		E1CA78AF12F686C1009CB412 /* OAProblem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OAProblem.m; path = ../../oauthconsumer/OAProblem.m; sourceTree = "<group>"; };
+		E1CA78B012F686C1009CB412 /* OARequestParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OARequestParameter.h; path = ../../oauthconsumer/OARequestParameter.h; sourceTree = "<group>"; };
+		E1CA78B112F686C1009CB412 /* OARequestParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OARequestParameter.m; path = ../../oauthconsumer/OARequestParameter.m; sourceTree = "<group>"; };
+		E1CA78B212F686C1009CB412 /* OAServiceTicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAServiceTicket.h; path = ../../oauthconsumer/OAServiceTicket.h; sourceTree = "<group>"; };
+		E1CA78B312F686C1009CB412 /* OAServiceTicket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OAServiceTicket.m; path = ../../oauthconsumer/OAServiceTicket.m; sourceTree = "<group>"; };
+		E1CA78B412F686C1009CB412 /* OASignatureProviding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OASignatureProviding.h; path = ../../oauthconsumer/OASignatureProviding.h; sourceTree = "<group>"; };
+		E1CA78B612F686C1009CB412 /* OAToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAToken.h; path = ../../oauthconsumer/OAToken.h; sourceTree = "<group>"; };
+		E1CA78B712F686C1009CB412 /* OAToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OAToken.m; path = ../../oauthconsumer/OAToken.m; sourceTree = "<group>"; };
+		E1CA78B812F686C1009CB412 /* OATokenManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OATokenManager.h; path = ../../oauthconsumer/OATokenManager.h; sourceTree = "<group>"; };
+		E1CA78B912F686C1009CB412 /* OATokenManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OATokenManager.m; path = ../../oauthconsumer/OATokenManager.m; sourceTree = "<group>"; };
+		E1CA78BA12F686C1009CB412 /* OAuthConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAuthConsumer.h; path = ../../oauthconsumer/OAuthConsumer.h; sourceTree = "<group>"; };
+		E1CA798312F68F9C009CB412 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +151,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				E1CA798412F68F9C009CB412 /* libxml2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,30 +166,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2860E324111B887F00E27156 /* iPhone */ = {
-			isa = PBXGroup;
-			children = (
-				2860E325111B887F00E27156 /* AppDelegate_iPhone.h */,
-				2860E326111B887F00E27156 /* AppDelegate_iPhone.m */,
-				2860E327111B887F00E27156 /* MainWindow_iPhone.xib */,
-			);
-			path = iPhone;
-			sourceTree = "<group>";
-		};
-		2860E32A111B888700E27156 /* iPad */ = {
-			isa = PBXGroup;
-			children = (
-				2860E32B111B888700E27156 /* AppDelegate_iPad.h */,
-				2860E32C111B888700E27156 /* AppDelegate_iPad.m */,
-				2860E32D111B888700E27156 /* MainWindow_iPad.xib */,
-			);
-			path = iPad;
-			sourceTree = "<group>";
-		};
 		28EEBF621118D79A00187D67 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				E1CA77D012F682BE009CB412 /* AppDelegate.h */,
+				E1CA77D112F682BE009CB412 /* AppDelegate.m */,
 				8D1107310486CEB800E47090 /* HelloTwitter-Info.plist */,
+				E1CA77CD12F68254009CB412 /* TwitterViewController.h */,
+				E1CA77CE12F68254009CB412 /* TwitterViewController.m */,
+				E1CA77F312F6831A009CB412 /* HelloTwitterView.h */,
+				E1CA77F412F6831A009CB412 /* HelloTwitterView.m */,
 			);
 			name = Shared;
 			sourceTree = "<group>";
@@ -86,12 +183,13 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				2860E32A111B888700E27156 /* iPad */,
-				2860E324111B887F00E27156 /* iPhone */,
+				E1CA789212F686B5009CB412 /* OAuthConsumer */,
+				E1CA782B12F684F2009CB412 /* MGTwitterEngine */,
 				28EEBF621118D79A00187D67 /* Shared */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				E1CA798312F68F9C009CB412 /* libxml2.dylib */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -113,6 +211,113 @@
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1CA782B12F684F2009CB412 /* MGTwitterEngine */ = {
+			isa = PBXGroup;
+			children = (
+				E1CA782D12F68524009CB412 /* MGTwitterEngine_Prefix.pch */,
+				E1CA782E12F68524009CB412 /* MGTwitterEngine.h */,
+				E1CA782F12F68524009CB412 /* MGTwitterEngine.m */,
+				E1CA783012F68524009CB412 /* MGTwitterEngineDelegate.h */,
+				E1CA783112F68524009CB412 /* MGTwitterEngineGlobalHeader.h */,
+				E1CA783212F68524009CB412 /* MGTwitterHTTPURLConnection.h */,
+				E1CA783312F68524009CB412 /* MGTwitterHTTPURLConnection.m */,
+				E1CA783412F68524009CB412 /* MGTwitterLibXMLParser.h */,
+				E1CA783512F68524009CB412 /* MGTwitterLibXMLParser.m */,
+				E1CA783612F68524009CB412 /* MGTwitterMessagesLibXMLParser.h */,
+				E1CA783712F68524009CB412 /* MGTwitterMessagesLibXMLParser.m */,
+				E1CA783812F68524009CB412 /* MGTwitterMessagesParser.h */,
+				E1CA783912F68524009CB412 /* MGTwitterMessagesParser.m */,
+				E1CA783C12F68524009CB412 /* MGTwitterMiscLibXMLParser.h */,
+				E1CA783D12F68524009CB412 /* MGTwitterMiscLibXMLParser.m */,
+				E1CA783E12F68524009CB412 /* MGTwitterMiscParser.h */,
+				E1CA783F12F68524009CB412 /* MGTwitterMiscParser.m */,
+				E1CA784212F68524009CB412 /* MGTwitterParserDelegate.h */,
+				E1CA784312F68524009CB412 /* MGTwitterRequestTypes.h */,
+				E1CA784612F68524009CB412 /* MGTwitterSocialGraphLibXMLParser.h */,
+				E1CA784712F68524009CB412 /* MGTwitterSocialGraphLibXMLParser.m */,
+				E1CA784812F68524009CB412 /* MGTwitterSocialGraphParser.h */,
+				E1CA784912F68524009CB412 /* MGTwitterSocialGraphParser.m */,
+				E1CA784A12F68524009CB412 /* MGTwitterStatusesLibXMLParser.h */,
+				E1CA784B12F68524009CB412 /* MGTwitterStatusesLibXMLParser.m */,
+				E1CA784C12F68524009CB412 /* MGTwitterStatusesParser.h */,
+				E1CA784D12F68524009CB412 /* MGTwitterStatusesParser.m */,
+				E1CA785212F68524009CB412 /* MGTwitterUserListsParser.h */,
+				E1CA785312F68524009CB412 /* MGTwitterUserListsParser.m */,
+				E1CA785412F68524009CB412 /* MGTwitterUsersLibXMLParser.h */,
+				E1CA785512F68524009CB412 /* MGTwitterUsersLibXMLParser.m */,
+				E1CA785612F68524009CB412 /* MGTwitterUsersParser.h */,
+				E1CA785712F68524009CB412 /* MGTwitterUsersParser.m */,
+				E1CA785A12F68524009CB412 /* MGTwitterXMLParser.h */,
+				E1CA785B12F68524009CB412 /* MGTwitterXMLParser.m */,
+				E1CA785E12F68524009CB412 /* NSData+Base64.h */,
+				E1CA785F12F68524009CB412 /* NSData+Base64.m */,
+				E1CA786012F68524009CB412 /* NSString+UUID.h */,
+				E1CA786112F68524009CB412 /* NSString+UUID.m */,
+			);
+			name = MGTwitterEngine;
+			sourceTree = "<group>";
+		};
+		E1CA789212F686B5009CB412 /* OAuthConsumer */ = {
+			isa = PBXGroup;
+			children = (
+				E1CA789412F686C1009CB412 /* Categories */,
+				E1CA789B12F686C1009CB412 /* Crytpo */,
+				E1CA78A212F686C1009CB412 /* OACall.h */,
+				E1CA78A312F686C1009CB412 /* OACall.m */,
+				E1CA78A412F686C1009CB412 /* OAConsumer.h */,
+				E1CA78A512F686C1009CB412 /* OAConsumer.m */,
+				E1CA78A612F686C1009CB412 /* OADataFetcher.h */,
+				E1CA78A712F686C1009CB412 /* OADataFetcher.m */,
+				E1CA78A812F686C1009CB412 /* OAHMAC_SHA1SignatureProvider.h */,
+				E1CA78A912F686C1009CB412 /* OAHMAC_SHA1SignatureProvider.m */,
+				E1CA78AA12F686C1009CB412 /* OAMutableURLRequest.h */,
+				E1CA78AB12F686C1009CB412 /* OAMutableURLRequest.m */,
+				E1CA78AC12F686C1009CB412 /* OAPlaintextSignatureProvider.h */,
+				E1CA78AD12F686C1009CB412 /* OAPlaintextSignatureProvider.m */,
+				E1CA78AE12F686C1009CB412 /* OAProblem.h */,
+				E1CA78AF12F686C1009CB412 /* OAProblem.m */,
+				E1CA78B012F686C1009CB412 /* OARequestParameter.h */,
+				E1CA78B112F686C1009CB412 /* OARequestParameter.m */,
+				E1CA78B212F686C1009CB412 /* OAServiceTicket.h */,
+				E1CA78B312F686C1009CB412 /* OAServiceTicket.m */,
+				E1CA78B412F686C1009CB412 /* OASignatureProviding.h */,
+				E1CA78B612F686C1009CB412 /* OAToken.h */,
+				E1CA78B712F686C1009CB412 /* OAToken.m */,
+				E1CA78B812F686C1009CB412 /* OATokenManager.h */,
+				E1CA78B912F686C1009CB412 /* OATokenManager.m */,
+				E1CA78BA12F686C1009CB412 /* OAuthConsumer.h */,
+			);
+			name = OAuthConsumer;
+			sourceTree = "<group>";
+		};
+		E1CA789412F686C1009CB412 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E1CA789512F686C1009CB412 /* NSMutableURLRequest+Parameters.h */,
+				E1CA789612F686C1009CB412 /* NSMutableURLRequest+Parameters.m */,
+				E1CA789712F686C1009CB412 /* NSString+URLEncoding.h */,
+				E1CA789812F686C1009CB412 /* NSString+URLEncoding.m */,
+				E1CA789912F686C1009CB412 /* NSURL+Base.h */,
+				E1CA789A12F686C1009CB412 /* NSURL+Base.m */,
+			);
+			name = Categories;
+			path = ../../oauthconsumer/Categories;
+			sourceTree = "<group>";
+		};
+		E1CA789B12F686C1009CB412 /* Crytpo */ = {
+			isa = PBXGroup;
+			children = (
+				E1CA789C12F686C1009CB412 /* Base64Transcoder.c */,
+				E1CA789D12F686C1009CB412 /* Base64Transcoder.h */,
+				E1CA789E12F686C1009CB412 /* hmac.c */,
+				E1CA789F12F686C1009CB412 /* hmac.h */,
+				E1CA78A012F686C1009CB412 /* sha1.c */,
+				E1CA78A112F686C1009CB412 /* sha1.h */,
+			);
+			name = Crytpo;
+			path = ../../oauthconsumer/Crytpo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,8 +369,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2860E329111B887F00E27156 /* MainWindow_iPhone.xib in Resources */,
-				2860E32F111B888700E27156 /* MainWindow_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,8 +380,43 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				2860E328111B887F00E27156 /* AppDelegate_iPhone.m in Sources */,
-				2860E32E111B888700E27156 /* AppDelegate_iPad.m in Sources */,
+				E1CA77CF12F68254009CB412 /* TwitterViewController.m in Sources */,
+				E1CA77D212F682BE009CB412 /* AppDelegate.m in Sources */,
+				E1CA77F512F6831A009CB412 /* HelloTwitterView.m in Sources */,
+				E1CA786212F68524009CB412 /* MGTwitterEngine.m in Sources */,
+				E1CA786312F68524009CB412 /* MGTwitterHTTPURLConnection.m in Sources */,
+				E1CA786412F68524009CB412 /* MGTwitterLibXMLParser.m in Sources */,
+				E1CA786512F68524009CB412 /* MGTwitterMessagesLibXMLParser.m in Sources */,
+				E1CA786612F68524009CB412 /* MGTwitterMessagesParser.m in Sources */,
+				E1CA786812F68524009CB412 /* MGTwitterMiscLibXMLParser.m in Sources */,
+				E1CA786912F68524009CB412 /* MGTwitterMiscParser.m in Sources */,
+				E1CA786C12F68524009CB412 /* MGTwitterSocialGraphLibXMLParser.m in Sources */,
+				E1CA786D12F68524009CB412 /* MGTwitterSocialGraphParser.m in Sources */,
+				E1CA786E12F68524009CB412 /* MGTwitterStatusesLibXMLParser.m in Sources */,
+				E1CA786F12F68524009CB412 /* MGTwitterStatusesParser.m in Sources */,
+				E1CA787212F68524009CB412 /* MGTwitterUserListsParser.m in Sources */,
+				E1CA787312F68524009CB412 /* MGTwitterUsersLibXMLParser.m in Sources */,
+				E1CA787412F68524009CB412 /* MGTwitterUsersParser.m in Sources */,
+				E1CA787612F68524009CB412 /* MGTwitterXMLParser.m in Sources */,
+				E1CA787812F68524009CB412 /* NSData+Base64.m in Sources */,
+				E1CA787912F68524009CB412 /* NSString+UUID.m in Sources */,
+				E1CA78BB12F686C1009CB412 /* NSMutableURLRequest+Parameters.m in Sources */,
+				E1CA78BC12F686C1009CB412 /* NSString+URLEncoding.m in Sources */,
+				E1CA78BD12F686C1009CB412 /* NSURL+Base.m in Sources */,
+				E1CA78BE12F686C1009CB412 /* Base64Transcoder.c in Sources */,
+				E1CA78BF12F686C1009CB412 /* hmac.c in Sources */,
+				E1CA78C012F686C1009CB412 /* sha1.c in Sources */,
+				E1CA78C112F686C1009CB412 /* OACall.m in Sources */,
+				E1CA78C212F686C1009CB412 /* OAConsumer.m in Sources */,
+				E1CA78C312F686C1009CB412 /* OADataFetcher.m in Sources */,
+				E1CA78C412F686C1009CB412 /* OAHMAC_SHA1SignatureProvider.m in Sources */,
+				E1CA78C512F686C1009CB412 /* OAMutableURLRequest.m in Sources */,
+				E1CA78C612F686C1009CB412 /* OAPlaintextSignatureProvider.m in Sources */,
+				E1CA78C712F686C1009CB412 /* OAProblem.m in Sources */,
+				E1CA78C812F686C1009CB412 /* OARequestParameter.m in Sources */,
+				E1CA78C912F686C1009CB412 /* OAServiceTicket.m in Sources */,
+				E1CA78CB12F686C1009CB412 /* OAToken.m in Sources */,
+				E1CA78CC12F686C1009CB412 /* OATokenManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +432,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HelloTwitter_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				INFOPLIST_FILE = "HelloTwitter-Info.plist";
 				PRODUCT_NAME = HelloTwitter;
 			};
@@ -206,6 +445,7 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HelloTwitter_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				INFOPLIST_FILE = "HelloTwitter-Info.plist";
 				PRODUCT_NAME = HelloTwitter;
 				VALIDATE_PRODUCT = YES;
@@ -218,8 +458,10 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -232,8 +474,10 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
 				SDKROOT = iphoneos;

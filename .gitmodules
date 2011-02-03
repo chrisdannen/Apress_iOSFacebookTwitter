@@ -7,3 +7,12 @@
 [submodule "Twitter-OAuth-iPhone"]
 	path = Twitter-OAuth-iPhone
 	url = git://github.com/bengottlieb/Twitter-OAuth-iPhone
+[submodule "oauthconsumer"]
+	path = oauthconsumer
+	url = git://github.com/jdg/oauthconsumer.git
+[submodule "yajl"]
+	path = yajl
+	url = git://github.com/lloyd/yajl.git
+[submodule "TouchJSON"]
+	path = TouchJSON
+	url = git://github.com/TouchCode/TouchJSON.git
