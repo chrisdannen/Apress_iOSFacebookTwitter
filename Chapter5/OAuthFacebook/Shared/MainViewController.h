@@ -1,5 +1,5 @@
 //
-//  FacebookViewController.h
+//  MainViewController.h
 //  OAuthFacebook
 //
 //  Created by Christopher White on 1/30/11.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface FacebookViewController : UIViewController {
+@interface MainViewController : UIViewController {
 
 }
 

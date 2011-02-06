@@ -1,5 +1,5 @@
 //
-//  OAuthFacebookView.h
+//  MainView.h
 //  OAuthFacebook
 //
 //  Created by Christopher White on 1/30/11.
@@ -10,7 +10,7 @@
 #import "Facebook.h"
 
 @class FBLoginButton;
-@interface OAuthFacebookView : UIView <FBSessionDelegate> {
+@interface MainView : UIView <FBSessionDelegate> {
 	FBLoginButton *fbLoginButton;
 }
 

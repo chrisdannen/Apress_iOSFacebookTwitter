@@ -1,16 +1,16 @@
 //
-//  OAuthFacebookView.m
+//  MainView.m
 //  OAuthFacebook
 //
 //  Created by Christopher White on 1/30/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "OAuthFacebookView.h"
+#import "MainView.h"
 #import "FBLoginButton.h"
 #import "AppDelegate.h"
 
-@implementation OAuthFacebookView
+@implementation MainView
 
 
 - (id)initWithFrame:(CGRect)frame {

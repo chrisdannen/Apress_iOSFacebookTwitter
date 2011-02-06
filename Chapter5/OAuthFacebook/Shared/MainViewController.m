@@ -1,15 +1,15 @@
     //
-//  FacebookViewController.m
+//  MainViewController.m
 //  OAuthFacebook
 //
 //  Created by Christopher White on 1/30/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "FacebookViewController.h"
-#import "OAuthFacebookView.h"
+#import "MainViewController.h"
+#import "MainView.h"
 
-@implementation FacebookViewController
+@implementation MainViewController
 
 - (id)init {
 	if (self = [super init]) {
@@ -20,9 +20,9 @@
 - (void)loadView {
 	[super loadView];
 	
-	OAuthFacebookView	*oauthFacebookView	= [[OAuthFacebookView alloc] initWithFrame:self.view.bounds];
-	[self.view addSubview:oauthFacebookView];
-	[oauthFacebookView release];
+	MainView	*mainView	= [[MainView alloc] initWithFrame:self.view.bounds];
+	[self.view addSubview:mainView];
+	[mainView release];
 }
 
 /*
