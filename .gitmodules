@@ -13,3 +13,6 @@
 [submodule "TouchJSON"]
 	path = TouchJSON
 	url = git://github.com/TouchCode/TouchJSON.git
+[submodule "MGTwitterEngine"]
+	path = MGTwitterEngine
+	url = git://github.com/ctshryock/MGTwitterEngine.git
