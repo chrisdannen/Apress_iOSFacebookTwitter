@@ -87,12 +87,6 @@ NSString	*appID	= @"114442211957627";
      */
 }
 
-#pragma mark -
-#pragma mark Facebook handleOpenURL
-- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
-	return [facebook handleOpenURL:url];
-}
-
 - (void)dealloc {
 	[mainViewController release];
     [window release];
