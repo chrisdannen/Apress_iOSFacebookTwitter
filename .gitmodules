@@ -7,9 +7,6 @@
 [submodule "oauthconsumer"]
 	path = oauthconsumer
 	url = git://github.com/jdg/oauthconsumer.git
-[submodule "TouchJSON"]
-	path = TouchJSON
-	url = git://github.com/TouchCode/TouchJSON.git
 [submodule "MGTwitterEngine"]
 	path = MGTwitterEngine
 	url = git://github.com/ctshryock/MGTwitterEngine.git
