@@ -7,7 +7,9 @@
 //
 
 #import "HelloFacebookView.h"
-#import "AppDelegate_iPhone.h"
+#import "AppDelegate.h"
+
+NSString	*kFacebookID	= @"114442211957627";
 
 @implementation HelloFacebookView
 
@@ -17,16 +19,18 @@
     if (self) {
 		
 		self.backgroundColor = [UIColor whiteColor];
-		
-		/*
-		NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
-		[params setObject:@"users.getInfo" forKey:@"method"];
-		[params setObject:@"19292868552" forKey:@"uid"];
-		[facebook requestWithParams:params andDelegate:self];
-		[params release];
-		*/
 		 
-		[facebook requestWithGraphPath:@"19292868552" andDelegate:self];
+		[facebook requestWithGraphPath:kFacebookID andDelegate:self];
+		
+		//If you were to perform the same operation using the Facebook REST API, 
+		//the request would like as follows:
+		/*
+		 NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
+		 [params setObject:@"users.getInfo" forKey:@"method"];
+		 [params setObject:kFacebookID forKey:@"uid"];
+		 [facebook requestWithParams:params andDelegate:self];
+		 [params release];
+		 */
     }
     return self;
 }
@@ -66,14 +70,10 @@
  * on thee format of the API response.
  */
 - (void)request:(FBRequest *)request didLoad:(id)result {
-	NSLog(@"request didLoad");
 	
 	NSDictionary *dictionary = (NSDictionary*)result;
 	
-	UILabel *label = [[UILabel alloc] initWithFrame:self.frame];
-	label.text = [dictionary description];
-	[self addSubview:label];
-	[label release];
+	NSLog(@"request didLoad: %@", [dictionary description]);
 }
 
 /**

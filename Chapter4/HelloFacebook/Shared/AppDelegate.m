@@ -1,18 +1,18 @@
 //
-//  AppDelegate_iPhone.m
+//  AppDelegate.m
 //  HelloFacebook
 //
 //  Created by Christopher White on 1/3/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "AppDelegate_iPhone.h"
+#import "AppDelegate.h"
 #import "HelloFacebookViewController.h"
 
 Facebook	*facebook;
 NSString	*appID	= @"114442211957627";
 
-@implementation AppDelegate_iPhone
+@implementation AppDelegate
 
 
 #pragma mark -
@@ -94,9 +94,9 @@ NSString	*appID	= @"114442211957627";
 }
 
 - (void)dealloc {
-	[facebook release];
 	[helloFacebookViewController release];
     [window release];
+	[facebook release];
     [super dealloc];
 }
 
