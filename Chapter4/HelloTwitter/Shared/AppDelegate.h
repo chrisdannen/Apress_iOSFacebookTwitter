@@ -11,10 +11,10 @@
 
 extern MGTwitterEngine	*mgTwitterEngine;
 
-@class TwitterViewController;
+@class MainViewController;
 @interface AppDelegate : NSObject <UIApplicationDelegate, MGTwitterEngineDelegate> {
     UIWindow *window;
-	TwitterViewController *twitterViewController;
+	MainViewController *mainViewController;
 }
 
 @end
