@@ -85,8 +85,8 @@ MGTwitterEngine	*mgTwitterEngine;
      */
 }
 
+#pragma mark -
 #pragma mark MGTwitterEngineDelegate methods
-
 
 - (void)requestSucceeded:(NSString *)connectionIdentifier {
     NSLog(@"Request succeeded for connectionIdentifier = %@", connectionIdentifier);

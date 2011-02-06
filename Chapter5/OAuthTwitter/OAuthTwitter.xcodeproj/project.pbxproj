@@ -189,6 +189,12 @@
 		28EEBF621118D79A00187D67 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				E1115C3412FF0BEA0022BD44 /* MainView.h */,
+				E1115C3512FF0BEA0022BD44 /* MainView.m */,
+				E1115C3612FF0BEA0022BD44 /* MainViewController.h */,
+				E1115C3712FF0BEA0022BD44 /* MainViewController.m */,
+				E1115A6412FF05220022BD44 /* AppDelegate.h */,
+				E1115A6512FF05220022BD44 /* AppDelegate.m */,
 				8D1107310486CEB800E47090 /* OAuthTwitter-Info.plist */,
 			);
 			name = Shared;
@@ -210,12 +216,6 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				E1115C3412FF0BEA0022BD44 /* MainView.h */,
-				E1115C3512FF0BEA0022BD44 /* MainView.m */,
-				E1115C3612FF0BEA0022BD44 /* MainViewController.h */,
-				E1115C3712FF0BEA0022BD44 /* MainViewController.m */,
-				E1115A6412FF05220022BD44 /* AppDelegate.h */,
-				E1115A6512FF05220022BD44 /* AppDelegate.m */,
 				32CA4F630368D1EE00C91783 /* OAuthTwitter_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);

@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "OAuthConsumer.h"
 
-@interface MainView : UIView {
-
+@interface MainView : UIView <UIWebViewDelegate, OACallDelegate> {
+	UIWebView *webView;
 }
+
+@property(nonatomic, retain)	UIWebView *webView;
 
 @end
