@@ -1,22 +1,22 @@
     //
-//  TwitterViewController.m
+//  MainViewController.m
 //  HelloTwitter
 //
 //  Created by Christopher White on 1/31/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "TwitterViewController.h"
-#import "HelloTwitterView.h"
+#import "MainViewController.h"
+#import "MainView.h"
 
-@implementation TwitterViewController
+@implementation MainViewController
 
 - (void)loadView {
 	[super loadView];
 	
-	HelloTwitterView	*helloTwitterView	= [[HelloTwitterView alloc] initWithFrame:self.view.bounds];
-	[self.view addSubview:helloTwitterView];
-	[helloTwitterView release];
+	MainView	*mainView	= [[MainView alloc] initWithFrame:self.view.bounds];
+	[self.view addSubview:mainView];
+	[mainView release];
 }
 
 /*

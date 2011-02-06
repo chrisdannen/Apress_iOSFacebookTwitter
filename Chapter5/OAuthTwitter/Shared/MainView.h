@@ -1,5 +1,5 @@
 //
-//  HelloTwitterView.h
+//  MainView.h
 //  HelloTwitter
 //
 //  Created by Christopher White on 1/31/11.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HelloTwitterView : UIView {
+@interface MainView : UIView {
 
 }
 

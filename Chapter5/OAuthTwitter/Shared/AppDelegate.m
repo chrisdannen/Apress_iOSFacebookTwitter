@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "TwitterViewController.h"
+#import "MainViewController.h"
 
 MGTwitterEngine	*mgTwitterEngine;
 
@@ -25,11 +25,11 @@ MGTwitterEngine	*mgTwitterEngine;
 	window = [[UIWindow alloc] initWithFrame:screenBounds];
 	
     // Override point for customization after application launch.
-	twitterViewController = [[TwitterViewController alloc] init];
+	mainViewController = [[MainViewController alloc] init];
     if ([window respondsToSelector:@selector(setRootViewController:)]) {
-		[window setRootViewController:twitterViewController];
+		[window setRootViewController:mainViewController];
 	} else {
-		[window addSubview:twitterViewController.view];
+		[window addSubview:mainViewController.view];
 	}
 	
     [window makeKeyAndVisible];
@@ -145,7 +145,7 @@ MGTwitterEngine	*mgTwitterEngine;
 
 
 - (void)dealloc {
-	[twitterViewController release];
+	[mainViewController release];
     [window release];
 	[mgTwitterEngine release];
     [super dealloc];
