@@ -1,9 +1,6 @@
 [submodule "facebook-ios-sdk"]
 	path = facebook-ios-sdk
 	url = git://github.com/facebook/facebook-ios-sdk.git
-[submodule "MGTwitterEngine"]
-	path = MGTwitterEngine
-	url = git://github.com/mattgemmell/MGTwitterEngine.git
 [submodule "Twitter-OAuth-iPhone"]
 	path = Twitter-OAuth-iPhone
 	url = git://github.com/bengottlieb/Twitter-OAuth-iPhone
