@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MGTwitterEngine.h"
 
-@interface HelloTwitterView : UIView <MGTwitterEngineDelegate> {
+@interface HelloTwitterView : UIView {
 
 }
 

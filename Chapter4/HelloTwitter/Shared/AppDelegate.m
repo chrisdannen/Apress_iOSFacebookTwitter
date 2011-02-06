@@ -19,6 +19,7 @@ MGTwitterEngine	*mgTwitterEngine;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
     // Override point for customization after application launch.
+	mgTwitterEngine = [[MGTwitterEngine alloc] initWithDelegate:self];
     
 	CGRect screenBounds = [[UIScreen mainScreen] bounds];
 	window = [[UIWindow alloc] initWithFrame:screenBounds];
@@ -84,10 +85,69 @@ MGTwitterEngine	*mgTwitterEngine;
      */
 }
 
+#pragma mark MGTwitterEngineDelegate methods
+
+
+- (void)requestSucceeded:(NSString *)connectionIdentifier {
+    NSLog(@"Request succeeded for connectionIdentifier = %@", connectionIdentifier);
+	
+	[UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
+}
+
+
+- (void)requestFailed:(NSString *)connectionIdentifier withError:(NSError *)error {
+    NSLog(@"Request failed for connectionIdentifier = %@, error = %@ (%@)", 
+          connectionIdentifier, 
+          [error localizedDescription], 
+          [error userInfo]);
+	
+	[UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
+}
+
+- (void)statusesReceived:(NSArray *)statuses forRequest:(NSString *)connectionIdentifier {
+	NSLog(@"Status received for connectionIdentifier = %@, %@", connectionIdentifier, [statuses description]);
+}
+
+- (void)directMessagesReceived:(NSArray *)messages forRequest:(NSString *)connectionIdentifier {
+	NSLog(@"Direct message for connectionIdentifier = %@", connectionIdentifier);
+}
+
+- (void)userInfoReceived:(NSArray *)userInfo forRequest:(NSString *)connectionIdentifier {
+	NSLog(@"User info for connectionIdentifier = %@", connectionIdentifier);
+}
+
+- (void)miscInfoReceived:(NSArray *)miscInfo forRequest:(NSString *)connectionIdentifier {
+	NSLog(@"Misc info for connectionIdentifier = %@", connectionIdentifier);
+}
+
+- (void)socialGraphInfoReceived:(NSArray *)socialGraphInfo forRequest:(NSString *)connectionIdentifier {
+	NSLog(@"Social graph for connectionIdentifier = %@", connectionIdentifier);
+}
+
+- (void)accessTokenReceived:(OAToken *)token forRequest:(NSString *)connectionIdentifier {
+	NSLog(@"Access token for connectionIdentifier = %@", connectionIdentifier);
+}
+
+- (void)imageReceived:(UIImage *)image forRequest:(NSString *)connectionIdentifier {
+	NSLog(@"Image receieved for connectionIdentifier = %@", connectionIdentifier);
+}
+
+// This delegate method is called whenever a connection has finished.
+- (void)connectionStarted:(NSString *)connectionIdentifier {
+	NSLog(@"Connection started for connectionIdentifier = %@", connectionIdentifier);
+	
+	[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
+}
+
+- (void)connectionFinished:(NSString *)connectionIdentifier {
+	NSLog(@"Connection finished for connectionIdentifier = %@", connectionIdentifier);
+}
+
 
 - (void)dealloc {
 	[twitterViewController release];
     [window release];
+	[mgTwitterEngine release];
     [super dealloc];
 }
 
