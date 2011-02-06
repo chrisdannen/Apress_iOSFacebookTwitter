@@ -19,15 +19,6 @@
         self.backgroundColor = [UIColor whiteColor];
 		
 		[mgTwitterEngine getPublicTimeline];
-		
-		/*
-		 NSDictionary *dictionary = (NSDictionary*)result;
-		 
-		 UILabel *label = [[UILabel alloc] initWithFrame:self.frame];
-		 label.text = [dictionary description];
-		 [self addSubview:label];
-		 [label release];
-		 */
     }
     return self;
 }
