@@ -1,8 +1,8 @@
 //
 //  main.m
-//  OAuthTwitter
+//  HelloTwitter
 //
-//  Created by Christopher White on 1/30/11.
+//  Created by Christopher White on 1/3/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
@@ -11,7 +11,7 @@
 int main(int argc, char *argv[]) {
     
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-    int retVal = UIApplicationMain(argc, argv, nil, nil);
+    int retVal = UIApplicationMain(argc, argv, nil, @"AppDelegate");
     [pool release];
     return retVal;
 }
