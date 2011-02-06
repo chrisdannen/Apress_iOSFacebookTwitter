@@ -4,9 +4,6 @@
 [submodule "Twitter-OAuth-iPhone"]
 	path = Twitter-OAuth-iPhone
 	url = git://github.com/bengottlieb/Twitter-OAuth-iPhone
-[submodule "oauthconsumer"]
-	path = oauthconsumer
-	url = git://github.com/jdg/oauthconsumer.git
 [submodule "MGTwitterEngine"]
 	path = MGTwitterEngine
 	url = git://github.com/ctshryock/MGTwitterEngine.git
