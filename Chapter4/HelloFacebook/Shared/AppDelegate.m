@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "HelloFacebookViewController.h"
+#import "MainViewController.h"
 
 Facebook	*facebook;
 NSString	*appID	= @"114442211957627";
@@ -27,11 +27,11 @@ NSString	*appID	= @"114442211957627";
 	window = [[UIWindow alloc] initWithFrame:screenBounds];
 	
     // Override point for customization after application launch.
-	helloFacebookViewController = [[HelloFacebookViewController alloc] init];
+	mainViewController = [[MainViewController alloc] init];
     if ([window respondsToSelector:@selector(setRootViewController:)]) {
-		[window setRootViewController:helloFacebookViewController];
+		[window setRootViewController:mainViewController];
 	} else {
-		[window addSubview:helloFacebookViewController.view];
+		[window addSubview:mainViewController.view];
 	}
 
     [window makeKeyAndVisible];
@@ -94,7 +94,7 @@ NSString	*appID	= @"114442211957627";
 }
 
 - (void)dealloc {
-	[helloFacebookViewController release];
+	[mainViewController release];
     [window release];
 	[facebook release];
     [super dealloc];

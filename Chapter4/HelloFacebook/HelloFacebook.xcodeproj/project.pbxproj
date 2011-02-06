@@ -12,6 +12,8 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		E1115A3212FEF8810022BD44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1115A3112FEF8810022BD44 /* AppDelegate.m */; };
+		E1115BC512FF08CC0022BD44 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1115BC212FF08CC0022BD44 /* MainView.m */; };
+		E1115BC612FF08CC0022BD44 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1115BC412FF08CC0022BD44 /* MainViewController.m */; };
 		E1AE7E6D12D440DB00CE8205 /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E1AE7E5512D440DB00CE8205 /* FBDialog.bundle */; };
 		E1AE7E6E12D440DB00CE8205 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE7E5912D440DB00CE8205 /* NSObject+SBJSON.m */; };
 		E1AE7E6F12D440DB00CE8205 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE7E5B12D440DB00CE8205 /* NSString+SBJSON.m */; };
@@ -23,8 +25,6 @@
 		E1AE7E7512D440DB00CE8205 /* Facebook.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE7E6712D440DB00CE8205 /* Facebook.m */; };
 		E1AE7E7612D440DB00CE8205 /* FBLoginDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE7E6A12D440DB00CE8205 /* FBLoginDialog.m */; };
 		E1AE7E7712D440DB00CE8205 /* FBDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE7E6C12D440DB00CE8205 /* FBDialog.m */; };
-		E1AE7E7D12D4423E00CE8205 /* HelloFacebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE7E7C12D4423E00CE8205 /* HelloFacebookViewController.m */; };
-		E1AE7EB112D449B900CE8205 /* HelloFacebookView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE7EB012D449B900CE8205 /* HelloFacebookView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +37,10 @@
 		8D1107310486CEB800E47090 /* HelloFacebook-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HelloFacebook-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		E1115A3012FEF8810022BD44 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Shared/AppDelegate.h; sourceTree = "<group>"; };
 		E1115A3112FEF8810022BD44 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Shared/AppDelegate.m; sourceTree = "<group>"; };
+		E1115BC112FF08CC0022BD44 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainView.h; path = Shared/MainView.h; sourceTree = "<group>"; };
+		E1115BC212FF08CC0022BD44 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainView.m; path = Shared/MainView.m; sourceTree = "<group>"; };
+		E1115BC312FF08CC0022BD44 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Shared/MainViewController.h; sourceTree = "<group>"; };
+		E1115BC412FF08CC0022BD44 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Shared/MainViewController.m; sourceTree = "<group>"; };
 		E1AE7E5512D440DB00CE8205 /* FBDialog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FBDialog.bundle; path = "../../facebook-ios-sdk/src/FBDialog.bundle"; sourceTree = SOURCE_ROOT; };
 		E1AE7E5712D440DB00CE8205 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		E1AE7E5812D440DB00CE8205 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
@@ -60,10 +64,6 @@
 		E1AE7E6A12D440DB00CE8205 /* FBLoginDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBLoginDialog.m; path = "../../facebook-ios-sdk/src/FBLoginDialog.m"; sourceTree = SOURCE_ROOT; };
 		E1AE7E6B12D440DB00CE8205 /* FBDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBDialog.h; path = "../../facebook-ios-sdk/src/FBDialog.h"; sourceTree = SOURCE_ROOT; };
 		E1AE7E6C12D440DB00CE8205 /* FBDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBDialog.m; path = "../../facebook-ios-sdk/src/FBDialog.m"; sourceTree = SOURCE_ROOT; };
-		E1AE7E7B12D4423E00CE8205 /* HelloFacebookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloFacebookViewController.h; sourceTree = "<group>"; };
-		E1AE7E7C12D4423E00CE8205 /* HelloFacebookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloFacebookViewController.m; sourceTree = "<group>"; };
-		E1AE7EAF12D449B900CE8205 /* HelloFacebookView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloFacebookView.h; sourceTree = "<group>"; };
-		E1AE7EB012D449B900CE8205 /* HelloFacebookView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloFacebookView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,13 +91,13 @@
 		28EEBF621118D79A00187D67 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				E1115BC112FF08CC0022BD44 /* MainView.h */,
+				E1115BC212FF08CC0022BD44 /* MainView.m */,
+				E1115BC312FF08CC0022BD44 /* MainViewController.h */,
+				E1115BC412FF08CC0022BD44 /* MainViewController.m */,
 				E1115A3012FEF8810022BD44 /* AppDelegate.h */,
 				E1115A3112FEF8810022BD44 /* AppDelegate.m */,
 				8D1107310486CEB800E47090 /* HelloFacebook-Info.plist */,
-				E1AE7E7B12D4423E00CE8205 /* HelloFacebookViewController.h */,
-				E1AE7E7C12D4423E00CE8205 /* HelloFacebookViewController.m */,
-				E1AE7EAF12D449B900CE8205 /* HelloFacebookView.h */,
-				E1AE7EB012D449B900CE8205 /* HelloFacebookView.m */,
 			);
 			name = Shared;
 			sourceTree = "<group>";
@@ -243,9 +243,9 @@
 				E1AE7E7512D440DB00CE8205 /* Facebook.m in Sources */,
 				E1AE7E7612D440DB00CE8205 /* FBLoginDialog.m in Sources */,
 				E1AE7E7712D440DB00CE8205 /* FBDialog.m in Sources */,
-				E1AE7E7D12D4423E00CE8205 /* HelloFacebookViewController.m in Sources */,
-				E1AE7EB112D449B900CE8205 /* HelloFacebookView.m in Sources */,
 				E1115A3212FEF8810022BD44 /* AppDelegate.m in Sources */,
+				E1115BC512FF08CC0022BD44 /* MainView.m in Sources */,
+				E1115BC612FF08CC0022BD44 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

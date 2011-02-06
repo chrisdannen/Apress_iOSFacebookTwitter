@@ -1,17 +1,17 @@
 //
-//  HelloFacebookView.m
+//  MainView.m
 //  HelloFacebook
 //
 //  Created by Christopher White on 1/5/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "HelloFacebookView.h"
+#import "MainView.h"
 #import "AppDelegate.h"
 
 NSString	*kFacebookID	= @"114442211957627";
 
-@implementation HelloFacebookView
+@implementation MainView
 
 - (id)initWithFrame:(CGRect)frame {
     

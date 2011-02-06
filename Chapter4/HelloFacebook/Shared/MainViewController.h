@@ -1,5 +1,5 @@
 //
-//  HelloFacebookViewController.h
+//  MainViewViewController.h
 //  HelloFacebook
 //
 //  Created by Christopher White on 1/5/11.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface HelloFacebookViewController : UIViewController {
+@interface MainViewController : UIViewController {
 
 }
 

@@ -11,10 +11,10 @@
 
 extern Facebook	*facebook;
 
-@class HelloFacebookViewController;
+@class MainViewController;
 @interface AppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-	HelloFacebookViewController	*helloFacebookViewController;
+	MainViewController	*mainViewController;
 }
 
 @end

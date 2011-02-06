@@ -1,15 +1,15 @@
     //
-//  HelloFacebookViewController.m
+//  MainViewController.m
 //  HelloFacebook
 //
 //  Created by Christopher White on 1/5/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "HelloFacebookViewController.h"
-#import "HelloFacebookView.h"
+#import "MainViewController.h"
+#import "MainView.h"
 
-@implementation HelloFacebookViewController
+@implementation MainViewController
 
 - (id)init {
 	if (self = [super init]) {
@@ -21,9 +21,9 @@
 - (void)loadView {
 	[super loadView];
 
-	HelloFacebookView	*helloFacebookView	= [[HelloFacebookView alloc] initWithFrame:self.view.bounds];
-	[self.view addSubview:helloFacebookView];
-	[helloFacebookView release];
+	MainView	*mainView	= [[MainView alloc] initWithFrame:self.view.bounds];
+	[self.view addSubview:mainView];
+	[mainView release];
 }
 
 /*
