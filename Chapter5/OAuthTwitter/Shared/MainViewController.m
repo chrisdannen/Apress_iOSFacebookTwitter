@@ -7,16 +7,18 @@
 //
 
 #import "MainViewController.h"
-#import "MainView.h"
+#import "AppDelegate.h"
 
 @implementation MainViewController
-
-- (void)loadView {
-	[super loadView];
+ 
+- (void) viewDidAppear: (BOOL)animated {
 	
-	MainView	*mainView	= [[MainView alloc] initWithFrame:self.view.bounds];
-	[self.view addSubview:mainView];
-	[mainView release];
+	UIViewController			*controller = [SA_OAuthTwitterController controllerToEnterCredentialsWithTwitterEngine: sa_OAuthTwitterEngine delegate: self];
+	if (controller) 
+		[self presentModalViewController: controller animated: YES];
+	else {
+		[sa_OAuthTwitterEngine sendUpdate: [NSString stringWithFormat: @"Already Updated. %@", [NSDate date]]];
+	}
 }
 
 /*
@@ -32,6 +34,20 @@
     [super didReceiveMemoryWarning];
     
     // Release any cached data, images, etc. that aren't in use.
+}
+
+#pragma mark
+#pragma mark SA_OAuthTwitterControllerDelegate
+- (void) OAuthTwitterController: (SA_OAuthTwitterController *) controller authenticatedWithUsername: (NSString *) username {
+	NSLog(@"Authenicated for %@", username);
+}
+
+- (void) OAuthTwitterControllerFailed: (SA_OAuthTwitterController *) controller {
+	NSLog(@"Authentication Failed!");
+}
+
+- (void) OAuthTwitterControllerCanceled: (SA_OAuthTwitterController *) controller {
+	NSLog(@"Authentication Canceled.");
 }
 
 - (void)viewDidUnload {

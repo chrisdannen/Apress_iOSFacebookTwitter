@@ -9,7 +9,10 @@
 #import "AppDelegate.h"
 #import "MainViewController.h"
 
-MGTwitterEngine	*mgTwitterEngine;
+#define kOAuthConsumerKey				@""		//REPLACE ME
+#define kOAuthConsumerSecret			@""		//REPLACE ME
+
+SA_OAuthTwitterEngine	*sa_OAuthTwitterEngine;
 
 @implementation AppDelegate
 
@@ -17,9 +20,10 @@ MGTwitterEngine	*mgTwitterEngine;
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-    
-    // Override point for customization after application launch.
-	mgTwitterEngine = [[MGTwitterEngine alloc] initWithDelegate:self];
+
+	sa_OAuthTwitterEngine = [[SA_OAuthTwitterEngine alloc] initOAuthWithDelegate: self];
+	sa_OAuthTwitterEngine.consumerKey = kOAuthConsumerKey;
+	sa_OAuthTwitterEngine.consumerSecret = kOAuthConsumerSecret;
     
 	CGRect screenBounds = [[UIScreen mainScreen] bounds];
 	window = [[UIWindow alloc] initWithFrame:screenBounds];
@@ -86,6 +90,23 @@ MGTwitterEngine	*mgTwitterEngine;
 }
 
 #pragma mark -
+#pragma mark SA_OAuthTwitterEngineDelegate
+- (void) storeCachedTwitterOAuthData: (NSString *) data forUsername: (NSString *) username {
+	NSUserDefaults			*defaults = [NSUserDefaults standardUserDefaults];
+	
+	[defaults setObject: data forKey: @"authData"];
+	[defaults synchronize];
+}
+
+- (NSString *) cachedTwitterOAuthDataForUsername: (NSString *) username {
+	return [[NSUserDefaults standardUserDefaults] objectForKey: @"authData"];
+}
+
+- (void) twitterOAuthConnectionFailedWithData: (NSData *) data {
+	NSLog(@"twitterOAuthConnectionFailedWithData");
+}
+
+#pragma mark -
 #pragma mark MGTwitterEngineDelegate methods
 
 - (void)requestSucceeded:(NSString *)connectionIdentifier {
@@ -132,7 +153,6 @@ MGTwitterEngine	*mgTwitterEngine;
 	NSLog(@"Image receieved for connectionIdentifier = %@", connectionIdentifier);
 }
 
-// This delegate method is called whenever a connection has finished.
 - (void)connectionStarted:(NSString *)connectionIdentifier {
 	NSLog(@"Connection started for connectionIdentifier = %@", connectionIdentifier);
 	
@@ -143,11 +163,10 @@ MGTwitterEngine	*mgTwitterEngine;
 	NSLog(@"Connection finished for connectionIdentifier = %@", connectionIdentifier);
 }
 
-
 - (void)dealloc {
 	[mainViewController release];
     [window release];
-	[mgTwitterEngine release];
+	[sa_OAuthTwitterEngine release];
     [super dealloc];
 }
 

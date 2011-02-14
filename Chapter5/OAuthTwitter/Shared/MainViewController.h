@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SA_OAuthTwitterController.h"
 
-
-@interface MainViewController : UIViewController {
+@interface MainViewController : UIViewController <SA_OAuthTwitterControllerDelegate> {
 
 }
 

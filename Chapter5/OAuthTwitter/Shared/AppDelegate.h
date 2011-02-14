@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MGTwitterEngine.h"
+#import "SA_OAuthTwitterEngine.h"
 
-extern MGTwitterEngine	*mgTwitterEngine;
+extern SA_OAuthTwitterEngine	*sa_OAuthTwitterEngine;
 
 @class MainViewController;
-@interface AppDelegate : NSObject <UIApplicationDelegate, MGTwitterEngineDelegate> {
+@interface AppDelegate : NSObject <UIApplicationDelegate, SA_OAuthTwitterEngineDelegate> {
     UIWindow *window;
 	MainViewController *mainViewController;
 }
