@@ -9,8 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "SA_OAuthTwitterController.h"
 
+@class TwitterLoginButton;
 @interface MainViewController : UIViewController <SA_OAuthTwitterControllerDelegate> {
-
+	TwitterLoginButton *twitterLoginButton;
 }
 
 @end

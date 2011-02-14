@@ -34,6 +34,8 @@
 		E116B3BA1308B6A60073AF2F /* SA_OAuthTwitterController.m in Sources */ = {isa = PBXBuildFile; fileRef = E116B3A51308B6A60073AF2F /* SA_OAuthTwitterController.m */; };
 		E116B3BB1308B6A60073AF2F /* SA_OAuthTwitterEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = E116B3A71308B6A60073AF2F /* SA_OAuthTwitterEngine.m */; };
 		E116B3BC1308B6A60073AF2F /* twitter_load.png in Resources */ = {isa = PBXBuildFile; fileRef = E116B3A81308B6A60073AF2F /* twitter_load.png */; };
+		E116B4DE1308D8520073AF2F /* TwitterLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E116B4DC1308D8520073AF2F /* TwitterLoginButton.m */; };
+		E116B4DF1308D8520073AF2F /* TwitterOAuth.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E116B4DD1308D8520073AF2F /* TwitterOAuth.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -104,6 +106,9 @@
 		E116B3A61308B6A60073AF2F /* SA_OAuthTwitterEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SA_OAuthTwitterEngine.h; path = "../../Twitter-OAuth-iPhone/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterEngine.h"; sourceTree = SOURCE_ROOT; };
 		E116B3A71308B6A60073AF2F /* SA_OAuthTwitterEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SA_OAuthTwitterEngine.m; path = "../../Twitter-OAuth-iPhone/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterEngine.m"; sourceTree = SOURCE_ROOT; };
 		E116B3A81308B6A60073AF2F /* twitter_load.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter_load.png; path = "../../Twitter-OAuth-iPhone/Twitter+OAuth/SAOAuthTwitterEngine/twitter_load.png"; sourceTree = SOURCE_ROOT; };
+		E116B4DB1308D8520073AF2F /* TwitterLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwitterLoginButton.h; path = "../../Twitter-OAuth-iPhone/TwitterLoginButton/TwitterLoginButton.h"; sourceTree = SOURCE_ROOT; };
+		E116B4DC1308D8520073AF2F /* TwitterLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwitterLoginButton.m; path = "../../Twitter-OAuth-iPhone/TwitterLoginButton/TwitterLoginButton.m"; sourceTree = SOURCE_ROOT; };
+		E116B4DD1308D8520073AF2F /* TwitterOAuth.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterOAuth.bundle; path = "../../Twitter-OAuth-iPhone/TwitterLoginButton/TwitterOAuth.bundle"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +150,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				E116B4DA1308D8520073AF2F /* TwitterLoginButton */,
 				E116B36D1308B6A60073AF2F /* Twitter+OAuth */,
 				28EEBF621118D79A00187D67 /* Shared */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -273,6 +279,17 @@
 			path = "../../Twitter-OAuth-iPhone/Twitter+OAuth/SAOAuthTwitterEngine";
 			sourceTree = SOURCE_ROOT;
 		};
+		E116B4DA1308D8520073AF2F /* TwitterLoginButton */ = {
+			isa = PBXGroup;
+			children = (
+				E116B4DB1308D8520073AF2F /* TwitterLoginButton.h */,
+				E116B4DC1308D8520073AF2F /* TwitterLoginButton.m */,
+				E116B4DD1308D8520073AF2F /* TwitterOAuth.bundle */,
+			);
+			name = TwitterLoginButton;
+			path = "../../Twitter-OAuth-iPhone/TwitterLoginButton";
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -325,6 +342,7 @@
 				E116B3A91308B6A60073AF2F /* jQueryInject.txt in Resources */,
 				E116B3AA1308B6A60073AF2F /* jQueryInjectLandscape.txt in Resources */,
 				E116B3BC1308B6A60073AF2F /* twitter_load.png in Resources */,
+				E116B4DF1308D8520073AF2F /* TwitterOAuth.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +372,7 @@
 				E116B3B91308B6A60073AF2F /* NSString+UUID.m in Sources */,
 				E116B3BA1308B6A60073AF2F /* SA_OAuthTwitterController.m in Sources */,
 				E116B3BB1308B6A60073AF2F /* SA_OAuthTwitterEngine.m in Sources */,
+				E116B4DE1308D8520073AF2F /* TwitterLoginButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
