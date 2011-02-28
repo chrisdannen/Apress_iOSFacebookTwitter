@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Facebook.h"
 
-
-@interface LoginViewController : UIViewController {
-
+@class FBLoginButton;
+@interface LoginViewController : UIViewController <FBSessionDelegate> {
+	FBLoginButton *fbLoginButton;
 }
 
 @end

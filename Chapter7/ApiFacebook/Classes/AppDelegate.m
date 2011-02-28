@@ -10,6 +10,7 @@
 #import "MainViewController.h"
 #import "LoginViewController.h"
 #import "FriendsViewController.h"
+#import "DialogViewController.h"
 
 Facebook	*facebook;
 NSString	*appID	= @"114442211957627";
@@ -34,6 +35,7 @@ NSString	*appID	= @"114442211957627";
 	NSMutableArray *viewControllers = [[NSMutableArray alloc] init];
 	[viewControllers addObject:[[LoginViewController alloc] init]];
 	[viewControllers addObject:[[FriendsViewController alloc] init]];
+	[viewControllers addObject:[[DialogViewController alloc] init]];
 	mainViewController.viewControllers = viewControllers;
 	[viewControllers release];
 	
