@@ -29,8 +29,44 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 	
-	//[facebook requestWithGraphPath:@"me?metadata=1" andDelegate:self];
-	[facebook requestWithGraphPath:@"me/friends" andDelegate:self];
+	NSMutableDictionary *params = [NSMutableDictionary dictionary];
+	//[params setObject:@"id,name,picture" forKey:@"fields"];
+	//[params setObject:@"U" forKey:@"date_format"];
+	
+	//does not require extended permissions
+	//[facebook requestWithGraphPath:@"me/friends" andParams:params andDelegate:self];
+	
+	//[facebook requestWithGraphPath:@"me/home" andParams:params andDelegate:self];
+	
+	// requires 'user_notes' extended permissions
+	//[facebook requestWithGraphPath:@"me/notes" andParams:params andDelegate:self];
+	
+	// requires 'user_events' extended permissions
+	//[facebook requestWithGraphPath:@"me/events" andParams:params andDelegate:self];
+	
+	//requires 'user_groups' extended permissions
+	//[facebook requestWithGraphPath:@"me/groups" andParams:params andDelegate:self];
+	
+	// requires 'user_likes' extended permissions
+	//[facebook requestWithGraphPath:@"me/likes" andParams:params andDelegate:self];
+	//[facebook requestWithGraphPath:@"me/movies" andParams:params andDelegate:self];
+	//[facebook requestWithGraphPath:@"me/music" andParams:params andDelegate:self];
+	//[facebook requestWithGraphPath:@"me/books" andParams:params andDelegate:self];	??
+	
+	// requires 'read_stream' extended permissions
+	//[facebook requestWithGraphPath:@"me/feed" andParams:params andDelegate:self];
+	
+	// requires 'user_photos' extended permissions
+	//[facebook requestWithGraphPath:@"me/photos" andParams:params andDelegate:self]; //tagged photos?
+	//[facebook requestWithGraphPath:@"me/videos" andParams:params andDelegate:self]; //tagged photos?
+	//[facebook requestWithGraphPath:@"me/albums" andParams:params andDelegate:self];
+	
+	// requires 'user_checkins' extended permissions
+	//[facebook requestWithGraphPath:@"me/checkins" andParams:params andDelegate:self];
+
+	[params setObject:@"3" forKey:@"limit"];
+	[params setObject:@"3" forKey:@"offset"];
+	[facebook requestWithGraphPath:@"me/feed" andParams:params andDelegate:self];
 }
 
 /*

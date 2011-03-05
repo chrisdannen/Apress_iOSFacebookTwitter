@@ -44,7 +44,8 @@
  */
 - (void)fbButtonClick:(UIButton*)sender {
 	//show a dialog with just an empty text box to post anything
-	[facebook dialog:@"feed" andDelegate:self];
+	NSMutableDictionary * params = [NSMutableDictionary dictionary];
+	[facebook dialog:@"feed" andParams:params andDelegate:self];
 	
 	//show a dialog to a youtube link
 	/*
@@ -81,6 +82,7 @@
 	//friends dialog is NOT supported
 	//hits delegate callback dialogCompleteWithUrl: with URL of 
 	//fbconnect://success/?error_code=3&error_msg=This+method+isn%27t+supported+for+this+display+type
+
 	/*
 	NSMutableDictionary* params = [NSMutableDictionary dictionaryWithObjectsAndKeys:
 								   @"<friend id>", @"id",

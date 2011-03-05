@@ -43,7 +43,7 @@
  * Show the authorization dialog.
  */
 - (void)login {
-	[facebook authorize:[NSArray arrayWithObjects:@"offline_access",nil] delegate:self];
+	[facebook authorize:[NSArray arrayWithObjects:@"user_groups", @"user_events", @"offline_access",nil] delegate:self];
 }
 
 /**
