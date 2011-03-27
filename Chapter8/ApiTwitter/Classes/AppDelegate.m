@@ -11,6 +11,7 @@
 #import "LoginViewController.h"
 #import "FollowersViewController.h"
 #import "TimelineViewController.h"
+#import "ImagePostController.h"
 
 #define kOAuthConsumerKey				@""		//REPLACE ME
 #define kOAuthConsumerSecret			@""		//REPLACE ME
@@ -39,6 +40,7 @@ NSArray *followers;
 	[viewControllers addObject:[[LoginViewController alloc] init]];
 	[viewControllers addObject:[[FollowersViewController alloc] init]];
 	[viewControllers addObject:[[TimelineViewController alloc] init]];
+    [viewControllers addObject:[[ImagePostController alloc] init]];
 	mainViewController.viewControllers = viewControllers;
 	[viewControllers release];
 	

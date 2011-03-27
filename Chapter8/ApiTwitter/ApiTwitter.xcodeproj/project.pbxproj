@@ -12,6 +12,7 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		E13E7270132099D4009C5ECC /* TimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E13E726F132099D4009C5ECC /* TimelineViewController.m */; };
+		E162E212133FD1610025E2A6 /* ImagePostController.m in Sources */ = {isa = PBXBuildFile; fileRef = E162E211133FD1610025E2A6 /* ImagePostController.m */; };
 		E1AEBB9913122A0400E1790D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AEBB9713122A0400E1790D /* MainViewController.m */; };
 		E1AEBB9C1312306800E1790D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AEBB9B1312306800E1790D /* AppDelegate.m */; };
 		E1AEBBFC1312414E00E1790D /* TwitterLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AEBBFA1312414E00E1790D /* TwitterLoginButton.m */; };
@@ -52,6 +53,8 @@
 		8D1107310486CEB800E47090 /* ApiTwitter-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ApiTwitter-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		E13E726E132099D4009C5ECC /* TimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineViewController.h; sourceTree = "<group>"; };
 		E13E726F132099D4009C5ECC /* TimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineViewController.m; sourceTree = "<group>"; };
+		E162E210133FD1610025E2A6 /* ImagePostController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePostController.h; sourceTree = "<group>"; };
+		E162E211133FD1610025E2A6 /* ImagePostController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePostController.m; sourceTree = "<group>"; };
 		E1AEBB9613122A0400E1790D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		E1AEBB9713122A0400E1790D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		E1AEBB9A1312306800E1790D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -142,6 +145,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E162E210133FD1610025E2A6 /* ImagePostController.h */,
+				E162E211133FD1610025E2A6 /* ImagePostController.m */,
 				E1AEBB9A1312306800E1790D /* AppDelegate.h */,
 				E1AEBB9B1312306800E1790D /* AppDelegate.m */,
 				E1AEBB9613122A0400E1790D /* MainViewController.h */,
@@ -402,6 +407,7 @@
 				E1AEBCC51312428A00E1790D /* LoginViewController.m in Sources */,
 				E1AEBDD91313778C00E1790D /* FollowersTableViewCell.m in Sources */,
 				E13E7270132099D4009C5ECC /* TimelineViewController.m in Sources */,
+				E162E212133FD1610025E2A6 /* ImagePostController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

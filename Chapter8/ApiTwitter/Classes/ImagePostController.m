@@ -7,8 +7,7 @@
 //
 
 #import "ImagePostController.h"
-#import "FBLoginButton.h"
-#import "AppDelegate.h"
+#import "TwitterLoginButton.h"
 
 @implementation ImagePostController
 
@@ -38,13 +37,12 @@
 
     self.view.backgroundColor = [UIColor whiteColor];
 
-    fbLoginButton = [[FBLoginButton alloc] initWithFrame:CGRectMake(127.0f, 68.0f, 72.0f, 37.0f)];
-    fbLoginButton.backgroundColor = [UIColor clearColor];
-    [fbLoginButton addTarget:self action:@selector(fbButtonClick:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:fbLoginButton];
-    [fbLoginButton release];
-
-    [fbLoginButton updateImage];
+    twitterButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+	twitterButton.frame = CGRectMake(127.0f, 68.0f, 72.0f, 37.0f);
+	[twitterButton setTitle:@"Twitter" forState:UIControlStateNormal];
+	[twitterButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+	[twitterButton addTarget:self action:@selector(twitterButtonClick:) forControlEvents:UIControlEventTouchUpInside];
+	[self.view addSubview:twitterButton];
 }
 
 - (void)viewDidUnload
@@ -54,10 +52,8 @@
     // e.g. self.myOutlet = nil;
 }
 
-- (void)fbButtonClick:(UIButton*)sender {
-    
+- (void)twitterButtonClick:(UIButton*)sender {
     if (YES == [UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypePhotoLibrary]) {
-        //NSArray *mediaTypes = [UIImagePickerController availableMediaTypesForSourceType:UIImagePickerControllerSourceTypePhotoLibrary];
         UIImagePickerController *uiImagePickerController = [[UIImagePickerController alloc] init];
         uiImagePickerController.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
         uiImagePickerController.delegate = self;
@@ -82,60 +78,12 @@
     savedImage = [info objectForKey:@"UIImagePickerControllerOriginalImage"];
     [self dismissModalViewControllerAnimated:YES];
     
-    NSMutableDictionary *args = [[NSMutableDictionary alloc] init];
-    [args setObject:@"This is a test image" forKey:@"message"];
-    [args setObject:savedImage forKey:@"image"];
-    [facebook requestWithGraphPath:@"me/photos" 
-                         andParams:args 
-                     andHttpMethod:@"POST"
-                       andDelegate:self];
-    [args release];
+    //upload the image via twitpic
 }
 
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker 
 {
 }
-
-#pragma mark -
-#pragma mark FBRequestDelegate
-
-- (void)requestLoading:(FBRequest *)request {
-	NSLog(@"requestLoading:");
-}
-
-/**
- * Called when the server responds and begins to send back data.
- */
-- (void)request:(FBRequest *)request didReceiveResponse:(NSURLResponse *)response {
-	NSLog(@"didReceiveResponse:");
-}
-
-/**
- * Called when an error prevents the request from completing successfully.
- */
-- (void)request:(FBRequest *)request didFailWithError:(NSError *)error {
-	NSLog(@"didFailWithError:");
-}
-
-/**
- * Called when a request returns and its response has been parsed into an object.
- *
- * The resulting object may be a dictionary, an array, a string, or a number, depending
- * on thee format of the API response.
- */
-- (void)request:(FBRequest *)request didLoad:(id)result {
-	NSLog(@"didLoad:");
-}
-
-/**
- * Called when a request returns a response.
- *
- * The result object is the raw response from the server of type NSData
- */
-- (void)request:(FBRequest *)request didLoadRawResponse:(NSData *)data {
-	NSLog(@"didLoadRawResponse:");
-}
-
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
