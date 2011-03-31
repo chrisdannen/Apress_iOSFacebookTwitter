@@ -13,3 +13,6 @@
 [submodule "OARequestHeader"]
 	path = OARequestHeader
 	url = git://github.com/Gurpartap/OARequestHeader.git
+[submodule "yajl-objc"]
+	path = yajl-objc
+	url = git://github.com/gabriel/yajl-objc.git
