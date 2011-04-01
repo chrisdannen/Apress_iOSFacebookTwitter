@@ -16,3 +16,6 @@
 [submodule "yajl-objc"]
 	path = yajl-objc
 	url = git://github.com/gabriel/yajl-objc.git
+[submodule "json-framework"]
+	path = json-framework
+	url = git://github.com/stig/json-framework.git
