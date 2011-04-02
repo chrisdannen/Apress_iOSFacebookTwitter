@@ -7,9 +7,6 @@
 [submodule "asi-http-request"]
 	path = asi-http-request
 	url = git://github.com/pokeb/asi-http-request.git
-[submodule "OARequestHeader"]
-	path = OARequestHeader
-	url = git://github.com/Gurpartap/OARequestHeader.git
 [submodule "yajl-objc"]
 	path = yajl-objc
 	url = git://github.com/gabriel/yajl-objc.git
