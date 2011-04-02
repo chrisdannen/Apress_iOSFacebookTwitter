@@ -4,9 +4,6 @@
 [submodule "Twitter-OAuth-iPhone"]
 	path = Twitter-OAuth-iPhone
 	url = git://github.com/chrisdannen/Twitter-OAuth-iPhone.git
-[submodule "GSTwitPicEngine"]
-	path = GSTwitPicEngine
-	url = git://github.com/Gurpartap/GSTwitPicEngine.git
 [submodule "asi-http-request"]
 	path = asi-http-request
 	url = git://github.com/pokeb/asi-http-request.git
