@@ -19,3 +19,6 @@
 [submodule "oauthconsumer"]
 	path = oauthconsumer
 	url = git://github.com/jdg/oauthconsumer.git
+[submodule "GSTwitPicEngine"]
+	path = GSTwitPicEngine
+	url = git://github.com/chrisdannen/GSTwitPicEngine.git
