@@ -19,3 +19,6 @@
 [submodule "GSTwitPicEngine"]
 	path = GSTwitPicEngine
 	url = git://github.com/chrisdannen/GSTwitPicEngine.git
+[submodule "OARequestHeader"]
+	path = OARequestHeader
+	url = git://github.com/chrisdannen/OARequestHeader.git
