@@ -19,3 +19,6 @@
 [submodule "OARequestHeader"]
 	path = OARequestHeader
 	url = git://github.com/chrisdannen/OARequestHeader.git
+[submodule "oauthconsumer"]
+	path = oauthconsumer
+	url = git://github.com/chrisdannen/oauthconsumer.git
