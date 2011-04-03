@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1327E8E1348B27B0025634F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1327E8D1348B27B0025634F /* UIKit.framework */; };
+		E1327E901348B27B0025634F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1327E8F1348B27B0025634F /* Foundation.framework */; };
+		E1327E921348B27B0025634F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1327E911348B27B0025634F /* CoreGraphics.framework */; };
+		E1327E981348B27C0025634F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1327E961348B27C0025634F /* InfoPlist.strings */; };
+		E1327E9B1348B27C0025634F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1327E9A1348B27C0025634F /* main.m */; };
+		E1327E9E1348B27C0025634F /* OfflineTwitterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1327E9D1348B27C0025634F /* OfflineTwitterAppDelegate.m */; };
+		E1327EA11348B27C0025634F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1327E9F1348B27C0025634F /* MainWindow.xib */; };
+		E1327EA41348B27C0025634F /* OfflineTwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1327EA31348B27C0025634F /* OfflineTwitterViewController.m */; };
+		E1327EA71348B27C0025634F /* OfflineTwitterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1327EA51348B27C0025634F /* OfflineTwitterViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E1327E891348B27B0025634F /* OfflineTwitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OfflineTwitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1327E8D1348B27B0025634F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E1327E8F1348B27B0025634F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E1327E911348B27B0025634F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E1327E951348B27C0025634F /* OfflineTwitter-Info.plist */ = {isa = PBXFileReference; path = "OfflineTwitter-Info.plist"; sourceTree = "<group>"; };
+		E1327E971348B27C0025634F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1327E991348B27C0025634F /* OfflineTwitter-Prefix.pch */ = {isa = PBXFileReference; path = "OfflineTwitter-Prefix.pch"; sourceTree = "<group>"; };
+		E1327E9A1348B27C0025634F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1327E9C1348B27C0025634F /* OfflineTwitterAppDelegate.h */ = {isa = PBXFileReference; path = OfflineTwitterAppDelegate.h; sourceTree = "<group>"; };
+		E1327E9D1348B27C0025634F /* OfflineTwitterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfflineTwitterAppDelegate.m; sourceTree = "<group>"; };
+		E1327EA01348B27C0025634F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E1327EA21348B27C0025634F /* OfflineTwitterViewController.h */ = {isa = PBXFileReference; path = OfflineTwitterViewController.h; sourceTree = "<group>"; };
+		E1327EA31348B27C0025634F /* OfflineTwitterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfflineTwitterViewController.m; sourceTree = "<group>"; };
+		E1327EA61348B27C0025634F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OfflineTwitterViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1327E861348B27B0025634F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1327E8E1348B27B0025634F /* UIKit.framework in Frameworks */,
+				E1327E901348B27B0025634F /* Foundation.framework in Frameworks */,
+				E1327E921348B27B0025634F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1327E7E1348B27B0025634F = {
+			isa = PBXGroup;
+			children = (
+				E1327E931348B27B0025634F /* OfflineTwitter */,
+				E1327E8C1348B27B0025634F /* Frameworks */,
+				E1327E8A1348B27B0025634F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1327E8A1348B27B0025634F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1327E891348B27B0025634F /* OfflineTwitter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1327E8C1348B27B0025634F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1327E8D1348B27B0025634F /* UIKit.framework */,
+				E1327E8F1348B27B0025634F /* Foundation.framework */,
+				E1327E911348B27B0025634F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1327E931348B27B0025634F /* OfflineTwitter */ = {
+			isa = PBXGroup;
+			children = (
+				E1327E9C1348B27C0025634F /* OfflineTwitterAppDelegate.h */,
+				E1327E9D1348B27C0025634F /* OfflineTwitterAppDelegate.m */,
+				E1327E9F1348B27C0025634F /* MainWindow.xib */,
+				E1327EA21348B27C0025634F /* OfflineTwitterViewController.h */,
+				E1327EA31348B27C0025634F /* OfflineTwitterViewController.m */,
+				E1327EA51348B27C0025634F /* OfflineTwitterViewController.xib */,
+				E1327E941348B27C0025634F /* Supporting Files */,
+			);
+			path = OfflineTwitter;
+			sourceTree = "<group>";
+		};
+		E1327E941348B27C0025634F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1327E951348B27C0025634F /* OfflineTwitter-Info.plist */,
+				E1327E961348B27C0025634F /* InfoPlist.strings */,
+				E1327E991348B27C0025634F /* OfflineTwitter-Prefix.pch */,
+				E1327E9A1348B27C0025634F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1327E881348B27B0025634F /* OfflineTwitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1327EAA1348B27C0025634F /* Build configuration list for PBXNativeTarget "OfflineTwitter" */;
+			buildPhases = (
+				E1327E851348B27B0025634F /* Sources */,
+				E1327E861348B27B0025634F /* Frameworks */,
+				E1327E871348B27B0025634F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OfflineTwitter;
+			productName = OfflineTwitter;
+			productReference = E1327E891348B27B0025634F /* OfflineTwitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1327E801348B27B0025634F /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E1327E831348B27B0025634F /* Build configuration list for PBXProject "OfflineTwitter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E1327E7E1348B27B0025634F;
+			productRefGroup = E1327E8A1348B27B0025634F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1327E881348B27B0025634F /* OfflineTwitter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1327E871348B27B0025634F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1327E981348B27C0025634F /* InfoPlist.strings in Resources */,
+				E1327EA11348B27C0025634F /* MainWindow.xib in Resources */,
+				E1327EA71348B27C0025634F /* OfflineTwitterViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1327E851348B27B0025634F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1327E9B1348B27C0025634F /* main.m in Sources */,
+				E1327E9E1348B27C0025634F /* OfflineTwitterAppDelegate.m in Sources */,
+				E1327EA41348B27C0025634F /* OfflineTwitterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1327E961348B27C0025634F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1327E971348B27C0025634F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E1327E9F1348B27C0025634F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1327EA01348B27C0025634F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E1327EA51348B27C0025634F /* OfflineTwitterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1327EA61348B27C0025634F /* en */,
+			);
+			name = OfflineTwitterViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1327EA81348B27C0025634F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1327EA91348B27C0025634F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E1327EAB1348B27C0025634F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OfflineTwitter/OfflineTwitter-Prefix.pch";
+				INFOPLIST_FILE = "OfflineTwitter/OfflineTwitter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E1327EAC1348B27C0025634F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OfflineTwitter/OfflineTwitter-Prefix.pch";
+				INFOPLIST_FILE = "OfflineTwitter/OfflineTwitter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1327E831348B27B0025634F /* Build configuration list for PBXProject "OfflineTwitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1327EA81348B27C0025634F /* Debug */,
+				E1327EA91348B27C0025634F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1327EAA1348B27C0025634F /* Build configuration list for PBXNativeTarget "OfflineTwitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1327EAB1348B27C0025634F /* Debug */,
+				E1327EAC1348B27C0025634F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1327E801348B27B0025634F /* Project object */;
+}
