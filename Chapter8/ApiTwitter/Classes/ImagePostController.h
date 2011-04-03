@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GSTwitPicEngine.h"
 
-@interface ImagePostController : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate> {
+@interface ImagePostController : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate, GSTwitPicEngineDelegate> {
     UIButton *twitterButton;
     UIImage *savedImage;
+    GSTwitPicEngine *twitpicEngine;
 }
 
 @end

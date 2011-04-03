@@ -94,6 +94,7 @@
 
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker 
 {
+    [self dismissModalViewControllerAnimated:YES];
 }
 
 #pragma mark -
