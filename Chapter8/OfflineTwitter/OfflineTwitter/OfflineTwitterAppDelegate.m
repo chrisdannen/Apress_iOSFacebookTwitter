@@ -7,22 +7,45 @@
 //
 
 #import "OfflineTwitterAppDelegate.h"
+#import "LoginViewController.h"
+#import "MainViewController.h"
+#import "TimelineViewController.h"
 
-#import "OfflineTwitterViewController.h"
+#define kOAuthConsumerKey				@""		//REPLACE ME
+#define kOAuthConsumerSecret			@""		//REPLACE ME
+
+SA_OAuthTwitterEngine	*sa_OAuthTwitterEngine;
 
 @implementation OfflineTwitterAppDelegate
 
-
 @synthesize window=_window;
-
-@synthesize viewController=_viewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    sa_OAuthTwitterEngine = [[SA_OAuthTwitterEngine alloc] initOAuthWithDelegate: self];
+	sa_OAuthTwitterEngine.consumerKey = kOAuthConsumerKey;
+	sa_OAuthTwitterEngine.consumerSecret = kOAuthConsumerSecret;
+    
+	CGRect screenBounds = [[UIScreen mainScreen] bounds];
+	window = [[UIWindow alloc] initWithFrame:screenBounds];
+	
     // Override point for customization after application launch.
-     
-    self.window.rootViewController = self.viewController;
-    [self.window makeKeyAndVisible];
+	mainViewController = [[MainViewController alloc] init];
+	
+	NSMutableArray *viewControllers = [[NSMutableArray alloc] init];
+	[viewControllers addObject:[[LoginViewController alloc] init]];
+	[viewControllers addObject:[[TimelineViewController alloc] init]];
+	mainViewController.viewControllers = viewControllers;
+	[viewControllers release];
+	
+    if ([window respondsToSelector:@selector(setRootViewController:)]) {
+		[window setRootViewController:mainViewController];
+	} else {
+		[window addSubview:mainViewController.view];
+	}
+	
+    [window makeKeyAndVisible];
+    
     return YES;
 }
 
@@ -65,10 +88,109 @@
      */
 }
 
+#pragma mark -
+#pragma mark SA_OAuthTwitterEngineDelegate
+- (void) storeCachedTwitterOAuthData: (NSString *) data forUsername: (NSString *) username {
+	NSUserDefaults			*defaults = [NSUserDefaults standardUserDefaults];
+	
+	[defaults setObject: data forKey: @"authData"];
+	[defaults synchronize];
+}
+
+- (NSString *) cachedTwitterOAuthDataForUsername: (NSString *) username {
+	return [[NSUserDefaults standardUserDefaults] objectForKey: @"authData"];
+}
+
+- (void) twitterOAuthConnectionFailedWithData: (NSData *) data {
+	NSLog(@"twitterOAuthConnectionFailedWithData");
+}
+
+#pragma mark -
+#pragma mark MGTwitterEngineDelegate methods
+
+- (void)requestSucceeded:(NSString *)connectionIdentifier {
+    NSLog(@"Request succeeded for connectionIdentifier = %@", connectionIdentifier);
+	
+	[UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
+}
+
+
+- (void)requestFailed:(NSString *)connectionIdentifier withError:(NSError *)error {
+    NSLog(@"Request failed for connectionIdentifier = %@, error = %@ (%@)", 
+          connectionIdentifier, 
+          [error localizedDescription], 
+          [error userInfo]);
+	
+	[UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
+}
+
+- (void)statusesReceived:(NSArray *)statuses forRequest:(NSString *)connectionIdentifier {
+	NSLog(@"Status received for connectionIdentifier = %@, %@", connectionIdentifier, [statuses description]);
+    
+    
+    NSDictionary *userInfoDictionary = [NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:statuses, nil] forKeys:[NSArray arrayWithObjects:@"tweets", nil]];
+	[[NSNotificationCenter defaultCenter] postNotificationName:connectionIdentifier 
+														object:self 
+													  userInfo:userInfoDictionary];
+	
+	NSDictionary *dictionary = [statuses objectAtIndex:0];
+	if (dictionary) {
+		NSString *twitterID = [dictionary objectForKey:@"id"];
+		NSLog(@"TwitterID = %@", twitterID);
+	}
+}
+
+- (void)directMessagesReceived:(NSArray *)messages forRequest:(NSString *)connectionIdentifier {
+	NSLog(@"Direct message for connectionIdentifier = %@", connectionIdentifier);
+}
+
+- (void)userInfoReceived:(NSArray *)userInfo forRequest:(NSString *)connectionIdentifier {
+	NSLog(@"User info for connectionIdentifier = %@", connectionIdentifier);
+	
+	//tell the UI to update itself
+	
+	NSDictionary *userInfoDictionary = [NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:userInfo, nil] forKeys:[NSArray arrayWithObjects:@"followers", nil]];
+	[[NSNotificationCenter defaultCenter] postNotificationName:connectionIdentifier 
+														object:self 
+													  userInfo:userInfoDictionary];
+}
+
+- (void)miscInfoReceived:(NSArray *)miscInfo forRequest:(NSString *)connectionIdentifier {
+	NSLog(@"Misc info for connectionIdentifier = %@", connectionIdentifier);
+}
+
+- (void)socialGraphInfoReceived:(NSArray *)socialGraphInfo forRequest:(NSString *)connectionIdentifier {
+	NSLog(@"Social graph for connectionIdentifier = %@", connectionIdentifier);
+}
+
+- (void)accessTokenReceived:(OAToken *)token forRequest:(NSString *)connectionIdentifier {
+	NSLog(@"Access token for connectionIdentifier = %@", connectionIdentifier);
+}
+
+- (void)imageReceived:(UIImage *)image forRequest:(NSString *)connectionIdentifier {
+	NSLog(@"Image receieved for connectionIdentifier = %@", connectionIdentifier);
+	
+	NSDictionary *userInfoDictionary = [NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:image, nil] forKeys:[NSArray arrayWithObjects:@"profile_image", nil]];
+	[[NSNotificationCenter defaultCenter] postNotificationName:connectionIdentifier 
+														object:self 
+													  userInfo:userInfoDictionary];
+}
+
+- (void)connectionStarted:(NSString *)connectionIdentifier {
+	NSLog(@"Connection started for connectionIdentifier = %@", connectionIdentifier);
+	
+	[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
+}
+
+- (void)connectionFinished:(NSString *)connectionIdentifier {
+	NSLog(@"Connection finished for connectionIdentifier = %@", connectionIdentifier);
+}
+
 - (void)dealloc
 {
-    [_window release];
-    [_viewController release];
+    [mainViewController release];
+    [window release];
+	[sa_OAuthTwitterEngine release];
     [super dealloc];
 }
 

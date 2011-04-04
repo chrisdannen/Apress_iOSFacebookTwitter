@@ -7,15 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SA_OAuthTwitterEngine.h"
 
-@class OfflineTwitterViewController;
+extern SA_OAuthTwitterEngine	*sa_OAuthTwitterEngine;
 
-@interface OfflineTwitterAppDelegate : NSObject <UIApplicationDelegate> {
-
+@class MainViewController;
+@interface OfflineTwitterAppDelegate : NSObject <UIApplicationDelegate, SA_OAuthTwitterEngineDelegate> {
+    UIWindow *window;
+    MainViewController *mainViewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
-@property (nonatomic, retain) IBOutlet OfflineTwitterViewController *viewController;
-
 @end
+
