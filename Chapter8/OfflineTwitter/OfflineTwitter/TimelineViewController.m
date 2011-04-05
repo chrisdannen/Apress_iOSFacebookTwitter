@@ -48,7 +48,7 @@
     [twitterDataStore synchronizeTweets:newTweets];
 }
 
-- (void)twitterFollowersRequestDidComplete:(NSNotification*)notification {
+- (void)twitterTimelineRequestDidComplete:(NSNotification*)notification {
 	
     [[NSNotificationCenter defaultCenter] removeObserver:self];
     
@@ -63,12 +63,12 @@
     
     twitterDataStore = [[TwitterDataStore alloc] init];
     tweets = [[twitterDataStore tweets] retain];
-	
-	NSString *identifier = [sa_OAuthTwitterEngine getHomeTimeline];
+    
+    NSString *identifier = [sa_OAuthTwitterEngine getHomeTimeline];
     
 	//listen for a notification with the name of the identifier
 	[[NSNotificationCenter defaultCenter] addObserver:self 
-                                             selector:@selector(twitterFollowersRequestDidComplete:) 
+                                             selector:@selector(twitterTimelineRequestDidComplete:) 
                                                  name:identifier 
                                                object:nil];
 }
