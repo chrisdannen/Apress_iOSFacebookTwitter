@@ -22,3 +22,6 @@
 [submodule "oauthconsumer"]
 	path = oauthconsumer
 	url = git://github.com/chrisdannen/oauthconsumer.git
+[submodule "FTLocationSimulator"]
+	path = FTLocationSimulator
+	url = git://github.com/futuretap/FTLocationSimulator.git
