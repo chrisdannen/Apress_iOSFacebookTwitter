@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E16994191367D3E5000F4ADA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E16994181367D3E5000F4ADA /* UIKit.framework */; };
+		E169941B1367D3E5000F4ADA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E169941A1367D3E5000F4ADA /* Foundation.framework */; };
+		E169941D1367D3E5000F4ADA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E169941C1367D3E5000F4ADA /* CoreGraphics.framework */; };
+		E16994231367D3E5000F4ADA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E16994211367D3E5000F4ADA /* InfoPlist.strings */; };
+		E16994261367D3E5000F4ADA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E16994251367D3E5000F4ADA /* main.m */; };
+		E16994291367D3E5000F4ADA /* ShareKitAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E16994281367D3E5000F4ADA /* ShareKitAppDelegate.m */; };
+		E169942C1367D3E5000F4ADA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E169942A1367D3E5000F4ADA /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E16994141367D3E5000F4ADA /* ShareKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16994181367D3E5000F4ADA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E169941A1367D3E5000F4ADA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E169941C1367D3E5000F4ADA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E16994201367D3E5000F4ADA /* ShareKit-Info.plist */ = {isa = PBXFileReference; path = "ShareKit-Info.plist"; sourceTree = "<group>"; };
+		E16994221367D3E5000F4ADA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E16994241367D3E5000F4ADA /* ShareKit-Prefix.pch */ = {isa = PBXFileReference; path = "ShareKit-Prefix.pch"; sourceTree = "<group>"; };
+		E16994251367D3E5000F4ADA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E16994271367D3E5000F4ADA /* ShareKitAppDelegate.h */ = {isa = PBXFileReference; path = ShareKitAppDelegate.h; sourceTree = "<group>"; };
+		E16994281367D3E5000F4ADA /* ShareKitAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareKitAppDelegate.m; sourceTree = "<group>"; };
+		E169942B1367D3E5000F4ADA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E16994111367D3E4000F4ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16994191367D3E5000F4ADA /* UIKit.framework in Frameworks */,
+				E169941B1367D3E5000F4ADA /* Foundation.framework in Frameworks */,
+				E169941D1367D3E5000F4ADA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E16994091367D3E4000F4ADA = {
+			isa = PBXGroup;
+			children = (
+				E169941E1367D3E5000F4ADA /* ShareKit */,
+				E16994171367D3E5000F4ADA /* Frameworks */,
+				E16994151367D3E5000F4ADA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E16994151367D3E5000F4ADA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E16994141367D3E5000F4ADA /* ShareKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E16994171367D3E5000F4ADA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E16994181367D3E5000F4ADA /* UIKit.framework */,
+				E169941A1367D3E5000F4ADA /* Foundation.framework */,
+				E169941C1367D3E5000F4ADA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E169941E1367D3E5000F4ADA /* ShareKit */ = {
+			isa = PBXGroup;
+			children = (
+				E16994271367D3E5000F4ADA /* ShareKitAppDelegate.h */,
+				E16994281367D3E5000F4ADA /* ShareKitAppDelegate.m */,
+				E169942A1367D3E5000F4ADA /* MainWindow.xib */,
+				E169941F1367D3E5000F4ADA /* Supporting Files */,
+			);
+			path = ShareKit;
+			sourceTree = "<group>";
+		};
+		E169941F1367D3E5000F4ADA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E16994201367D3E5000F4ADA /* ShareKit-Info.plist */,
+				E16994211367D3E5000F4ADA /* InfoPlist.strings */,
+				E16994241367D3E5000F4ADA /* ShareKit-Prefix.pch */,
+				E16994251367D3E5000F4ADA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E16994131367D3E4000F4ADA /* ShareKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E169942F1367D3E5000F4ADA /* Build configuration list for PBXNativeTarget "ShareKit" */;
+			buildPhases = (
+				E16994101367D3E4000F4ADA /* Sources */,
+				E16994111367D3E4000F4ADA /* Frameworks */,
+				E16994121367D3E4000F4ADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareKit;
+			productName = ShareKit;
+			productReference = E16994141367D3E5000F4ADA /* ShareKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E169940B1367D3E4000F4ADA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E169940E1367D3E4000F4ADA /* Build configuration list for PBXProject "ShareKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E16994091367D3E4000F4ADA;
+			productRefGroup = E16994151367D3E5000F4ADA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E16994131367D3E4000F4ADA /* ShareKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E16994121367D3E4000F4ADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16994231367D3E5000F4ADA /* InfoPlist.strings in Resources */,
+				E169942C1367D3E5000F4ADA /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E16994101367D3E4000F4ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16994261367D3E5000F4ADA /* main.m in Sources */,
+				E16994291367D3E5000F4ADA /* ShareKitAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E16994211367D3E5000F4ADA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E16994221367D3E5000F4ADA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E169942A1367D3E5000F4ADA /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E169942B1367D3E5000F4ADA /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E169942D1367D3E5000F4ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E169942E1367D3E5000F4ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E16994301367D3E5000F4ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShareKit/ShareKit-Prefix.pch";
+				INFOPLIST_FILE = "ShareKit/ShareKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E16994311367D3E5000F4ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShareKit/ShareKit-Prefix.pch";
+				INFOPLIST_FILE = "ShareKit/ShareKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E169940E1367D3E4000F4ADA /* Build configuration list for PBXProject "ShareKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E169942D1367D3E5000F4ADA /* Debug */,
+				E169942E1367D3E5000F4ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E169942F1367D3E5000F4ADA /* Build configuration list for PBXNativeTarget "ShareKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16994301367D3E5000F4ADA /* Debug */,
+				E16994311367D3E5000F4ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E169940B1367D3E4000F4ADA /* Project object */;
+}
