@@ -10,6 +10,7 @@
 
 
 @implementation Tweet
+
 @synthesize id;
 @synthesize text;
 

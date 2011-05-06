@@ -10,8 +10,8 @@
 
 
 @interface Tweet : NSObject {
-@private
 }
+
 @property (nonatomic, retain) NSNumber * id;
 @property (nonatomic, retain) NSString * text;
 

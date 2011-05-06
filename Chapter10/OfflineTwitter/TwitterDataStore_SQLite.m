@@ -28,6 +28,7 @@
 - (void)openDatabase
 {
     if (nil == database) {
+        BOOL created = [[NSFileManager defaultManager] createDirectoryAtPath:[[self applicationDocumentsDirectory] relativePath] attributes:nil];
         NSURL *path = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"twitter.sqlite"];
 
         if (SQLITE_OK != sqlite3_open([[path relativePath] UTF8String], &database)) {

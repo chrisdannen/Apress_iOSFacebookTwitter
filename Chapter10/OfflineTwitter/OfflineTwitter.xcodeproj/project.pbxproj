@@ -46,6 +46,16 @@
 		E1327FBF13492BE60025634F /* TwitterDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E1327FBE13492BE60025634F /* TwitterDataStore.m */; };
 		E1903DED136E3BBD0038EFEF /* TwitterDataStore_SQLite.m in Sources */ = {isa = PBXBuildFile; fileRef = E1903DEC136E3BBD0038EFEF /* TwitterDataStore_SQLite.m */; };
 		E1903DEF136E52490038EFEF /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E1903DEE136E52490038EFEF /* libsqlite3.0.dylib */; };
+		E1A1660313726682007B9A2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1327E8D1348B27B0025634F /* UIKit.framework */; };
+		E1A1660413726682007B9A2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1327E8F1348B27B0025634F /* Foundation.framework */; };
+		E1A1660513726682007B9A2E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1327E911348B27B0025634F /* CoreGraphics.framework */; };
+		E1A1660B13726682007B9A2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1A1660913726682007B9A2E /* InfoPlist.strings */; };
+		E1A1660E13726683007B9A2E /* OfflineTwitterTest.h in Resources */ = {isa = PBXBuildFile; fileRef = E1A1660D13726683007B9A2E /* OfflineTwitterTest.h */; };
+		E1A1661013726683007B9A2E /* OfflineTwitterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A1660F13726683007B9A2E /* OfflineTwitterTest.m */; };
+		E1A1661413726748007B9A2E /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = E1327EF31348C6EF0025634F /* Tweet.m */; };
+		E1A166151372675C007B9A2E /* TwitterDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E1327FBE13492BE60025634F /* TwitterDataStore.m */; };
+		E1A1661613726762007B9A2E /* TwitterDataStore_SQLite.m in Sources */ = {isa = PBXBuildFile; fileRef = E1903DEC136E3BBD0038EFEF /* TwitterDataStore_SQLite.m */; };
+		E1A1661813726810007B9A2E /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A1661713726810007B9A2E /* libsqlite3.0.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -135,6 +145,13 @@
 		E1903DEB136E3BBD0038EFEF /* TwitterDataStore_SQLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterDataStore_SQLite.h; sourceTree = "<group>"; };
 		E1903DEC136E3BBD0038EFEF /* TwitterDataStore_SQLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterDataStore_SQLite.m; sourceTree = "<group>"; };
 		E1903DEE136E52490038EFEF /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		E1A1660213726682007B9A2E /* OfflineTwitterTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OfflineTwitterTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A1660813726682007B9A2E /* OfflineTwitterTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OfflineTwitterTest-Info.plist"; sourceTree = "<group>"; };
+		E1A1660A13726682007B9A2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1A1660C13726682007B9A2E /* OfflineTwitterTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OfflineTwitterTest-Prefix.pch"; sourceTree = "<group>"; };
+		E1A1660D13726683007B9A2E /* OfflineTwitterTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OfflineTwitterTest.h; sourceTree = "<group>"; };
+		E1A1660F13726683007B9A2E /* OfflineTwitterTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfflineTwitterTest.m; sourceTree = "<group>"; };
+		E1A1661713726810007B9A2E /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,18 +169,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E1A165FE13726682007B9A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A1661813726810007B9A2E /* libsqlite3.0.dylib in Frameworks */,
+				E1A1660313726682007B9A2E /* UIKit.framework in Frameworks */,
+				E1A1660413726682007B9A2E /* Foundation.framework in Frameworks */,
+				E1A1660513726682007B9A2E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		E1327E7E1348B27B0025634F = {
 			isa = PBXGroup;
 			children = (
+				E1A1661713726810007B9A2E /* libsqlite3.0.dylib */,
 				E1903DEE136E52490038EFEF /* libsqlite3.0.dylib */,
 				E1327F88134924910025634F /* libxml2.dylib */,
 				E1327F32134923230025634F /* Twitter+OAuth */,
 				E1327F82134923510025634F /* TwitterLoginButton */,
 				E1327EAD1348B3FB0025634F /* Model */,
 				E1327E931348B27B0025634F /* OfflineTwitter */,
+				E1A1660613726682007B9A2E /* OfflineTwitterTest */,
 				E1327E8C1348B27B0025634F /* Frameworks */,
 				E1327E8A1348B27B0025634F /* Products */,
 			);
@@ -173,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				E1327E891348B27B0025634F /* OfflineTwitter.app */,
+				E1A1660213726682007B9A2E /* OfflineTwitterTest.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -338,6 +369,26 @@
 			name = TwitterLoginButton;
 			sourceTree = "<group>";
 		};
+		E1A1660613726682007B9A2E /* OfflineTwitterTest */ = {
+			isa = PBXGroup;
+			children = (
+				E1A1660D13726683007B9A2E /* OfflineTwitterTest.h */,
+				E1A1660F13726683007B9A2E /* OfflineTwitterTest.m */,
+				E1A1660713726682007B9A2E /* Supporting Files */,
+			);
+			path = OfflineTwitterTest;
+			sourceTree = "<group>";
+		};
+		E1A1660713726682007B9A2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1A1660813726682007B9A2E /* OfflineTwitterTest-Info.plist */,
+				E1A1660913726682007B9A2E /* InfoPlist.strings */,
+				E1A1660C13726682007B9A2E /* OfflineTwitterTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -358,6 +409,24 @@
 			productReference = E1327E891348B27B0025634F /* OfflineTwitter.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E1A1660113726682007B9A2E /* OfflineTwitterTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1A1661113726683007B9A2E /* Build configuration list for PBXNativeTarget "OfflineTwitterTest" */;
+			buildPhases = (
+				E1A165FD13726682007B9A2E /* Sources */,
+				E1A165FE13726682007B9A2E /* Frameworks */,
+				E1A165FF13726682007B9A2E /* Resources */,
+				E1A1660013726682007B9A2E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OfflineTwitterTest;
+			productName = OfflineTwitterTest;
+			productReference = E1A1660213726682007B9A2E /* OfflineTwitterTest.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -376,6 +445,7 @@
 			projectRoot = "";
 			targets = (
 				E1327E881348B27B0025634F /* OfflineTwitter */,
+				E1A1660113726682007B9A2E /* OfflineTwitterTest */,
 			);
 		};
 /* End PBXProject section */
@@ -394,7 +464,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E1A165FF13726682007B9A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A1660B13726682007B9A2E /* InfoPlist.strings in Resources */,
+				E1A1660E13726683007B9A2E /* OfflineTwitterTest.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E1A1660013726682007B9A2E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E1327E851348B27B0025634F /* Sources */ = {
@@ -430,6 +525,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E1A165FD13726682007B9A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A1661013726683007B9A2E /* OfflineTwitterTest.m in Sources */,
+				E1A1661413726748007B9A2E /* Tweet.m in Sources */,
+				E1A166151372675C007B9A2E /* TwitterDataStore.m in Sources */,
+				E1A1661613726762007B9A2E /* TwitterDataStore_SQLite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -447,6 +553,14 @@
 				E1327EA61348B27C0025634F /* en */,
 			);
 			name = OfflineTwitterViewController.xib;
+			sourceTree = "<group>";
+		};
+		E1A1660913726682007B9A2E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1A1660A13726682007B9A2E /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -522,6 +636,46 @@
 			};
 			name = Release;
 		};
+		E1A1661213726683007B9A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OfflineTwitterTest/OfflineTwitterTest-Prefix.pch";
+				INFOPLIST_FILE = "OfflineTwitterTest/OfflineTwitterTest-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E1A1661313726683007B9A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OfflineTwitterTest/OfflineTwitterTest-Prefix.pch";
+				INFOPLIST_FILE = "OfflineTwitterTest/OfflineTwitterTest-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -542,6 +696,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		E1A1661113726683007B9A2E /* Build configuration list for PBXNativeTarget "OfflineTwitterTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A1661213726683007B9A2E /* Debug */,
+				E1A1661313726683007B9A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
