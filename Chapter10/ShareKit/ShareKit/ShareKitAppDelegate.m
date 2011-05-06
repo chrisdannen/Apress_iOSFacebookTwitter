@@ -7,16 +7,26 @@
 //
 
 #import "ShareKitAppDelegate.h"
+#import "MainViewController.h"
 
 @implementation ShareKitAppDelegate
 
-
-@synthesize window=_window;
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    CGRect screenBounds = [[UIScreen mainScreen] bounds];
+	window = [[UIWindow alloc] initWithFrame:screenBounds];
+	
     // Override point for customization after application launch.
-    [self.window makeKeyAndVisible];
+	mainViewController = [[MainViewController alloc] init];
+	
+    if ([window respondsToSelector:@selector(setRootViewController:)]) {
+		[window setRootViewController:mainViewController];
+	} else {
+		[window addSubview:mainViewController.view];
+	}
+	
+    [window makeKeyAndVisible];
+
     return YES;
 }
 
@@ -61,7 +71,8 @@
 
 - (void)dealloc
 {
-    [_window release];
+    [mainViewController release];
+    [window release];
     [super dealloc];
 }
 

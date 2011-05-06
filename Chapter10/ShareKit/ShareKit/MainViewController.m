@@ -7,7 +7,7 @@
 //
 
 #import "MainViewController.h"
-
+#import "SHK.h"
 
 @implementation MainViewController
 
@@ -35,20 +35,50 @@
 
 #pragma mark - View lifecycle
 
-/*
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView
+- (void)share
 {
-}
-*/
+    NSString *longURL = @"http://www.apress.com";
+    NSString *apiEndpoint = [NSString stringWithFormat:@"http://tinyurl.com/api-create.php?url=%@", longURL];
+    NSString *shortURL = [NSString stringWithContentsOfURL:[NSURL URLWithString:apiEndpoint]
+                                                  encoding:NSASCIIStringEncoding
+                                                     error:nil];
+    //NSLog(@"Long: %@ - Short: %@",url1,shortURL);
 
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
+    
+    
+	// Create the item to share (in this example, a url)
+	NSURL *url = [NSURL URLWithString:@"http://www.apress.com"];
+	SHKItem *item = [SHKItem URL:url title:@"Apress is Awesome!"];
+    
+	// Get the ShareKit action sheet
+	SHKActionSheet *actionSheet = [SHKActionSheet actionSheetForItem:item];
+    
+	// Display the action sheet
+	[actionSheet showFromToolbar:toolbar];
 }
-*/
+
+// Implement loadView to create a view hierarchy programmatically, without using a nib.
+- (void)loadView 
+{
+	[super loadView];
+	
+	self.view.backgroundColor = [UIColor whiteColor];
+    
+    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction
+                                                                          target:self 
+                                                                          action:@selector(share)];
+    NSMutableArray *items = [NSMutableArray array];
+    [items addObject:item];
+    [item release];
+    
+    toolbar = [[UIToolbar alloc] initWithFrame:CGRectMake(0.0f, self.view.bounds.size.height-40.0f, self.view.bounds.size.width, 40.0f)];
+    
+    [toolbar setItems:items animated:YES];
+    [self.view addSubview:toolbar];
+    [toolbar release];
+    
+    [SHK flushOfflineQueue];
+}
 
 - (void)viewDidUnload
 {

@@ -10,7 +10,7 @@
 
 
 @interface MainViewController : UIViewController {
-    
+    UIToolbar *toolbar;
 }
 
 @end

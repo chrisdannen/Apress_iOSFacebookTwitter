@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class MainViewController;
 @interface ShareKitAppDelegate : NSObject <UIApplicationDelegate> {
-
+    UIWindow *window;
+	MainViewController	*mainViewController;
 }
-
-@property (nonatomic, retain) IBOutlet UIWindow *window;
 
 @end
