@@ -31,6 +31,8 @@
 		E1AEBA751311FEE300E1790D /* FBDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AEBA6A1311FEE300E1790D /* FBDialog.m */; };
 		E1AEBAAC1311FF1000E1790D /* FBLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AEBAAB1311FF1000E1790D /* FBLoginButton.m */; };
 		E1AEBACB1311FF4100E1790D /* FBConnect.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E1AEBACA1311FF4100E1790D /* FBConnect.bundle */; };
+		E1AF0FBC137B931A003E40CE /* NSMutableArray+QueueAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AF0FBB137B931A003E40CE /* NSMutableArray+QueueAdditions.m */; };
+		E1AF0FBF137B9D29003E40CE /* FacebookRequestController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AF0FBE137B9D29003E40CE /* FacebookRequestController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +83,10 @@
 		E1AEBAAA1311FF1000E1790D /* FBLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBLoginButton.h; path = "../../../facebook-ios-sdk/sample/DemoApp/Classes/FBLoginButton.h"; sourceTree = "<group>"; };
 		E1AEBAAB1311FF1000E1790D /* FBLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBLoginButton.m; path = "../../../facebook-ios-sdk/sample/DemoApp/Classes/FBLoginButton.m"; sourceTree = "<group>"; };
 		E1AEBACA1311FF4100E1790D /* FBConnect.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FBConnect.bundle; path = "../../../facebook-ios-sdk/sample/FBConnect.bundle"; sourceTree = "<group>"; };
+		E1AF0FBA137B931A003E40CE /* NSMutableArray+QueueAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+QueueAdditions.h"; sourceTree = "<group>"; };
+		E1AF0FBB137B931A003E40CE /* NSMutableArray+QueueAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+QueueAdditions.m"; sourceTree = "<group>"; };
+		E1AF0FBD137B9D29003E40CE /* FacebookRequestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookRequestController.h; sourceTree = "<group>"; };
+		E1AF0FBE137B9D29003E40CE /* FacebookRequestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookRequestController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,10 @@
 				E1AEBA131311FE2600E1790D /* MainView.m */,
 				E1AEBA141311FE2600E1790D /* MainViewController.h */,
 				E1AEBA151311FE2600E1790D /* MainViewController.m */,
+				E1AF0FBA137B931A003E40CE /* NSMutableArray+QueueAdditions.h */,
+				E1AF0FBB137B931A003E40CE /* NSMutableArray+QueueAdditions.m */,
+				E1AF0FBD137B9D29003E40CE /* FacebookRequestController.h */,
+				E1AF0FBE137B9D29003E40CE /* FacebookRequestController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -296,6 +306,8 @@
 				E1AEBA741311FEE300E1790D /* FBLoginDialog.m in Sources */,
 				E1AEBA751311FEE300E1790D /* FBDialog.m in Sources */,
 				E1AEBAAC1311FF1000E1790D /* FBLoginButton.m in Sources */,
+				E1AF0FBC137B931A003E40CE /* NSMutableArray+QueueAdditions.m in Sources */,
+				E1AF0FBF137B9D29003E40CE /* FacebookRequestController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

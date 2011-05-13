@@ -9,6 +9,7 @@
 #import "FriendsViewController.h"
 #import "AppDelegate.h"
 #import "FriendTableViewCell.h"
+#import "FacebookRequestController.h"
 
 @implementation FriendsViewController
 
@@ -23,14 +24,25 @@
 	return self;
 }
 
+- (void)facebookRequestDidComplete:(NSNotification*)notification {
+	
+	[[NSNotificationCenter defaultCenter] removeObserver:self];
+    
+    [items release];
+	items = [[(NSDictionary*)[notification.userInfo objectForKey:@"result"] objectForKey:@"data"] retain];
+	[self.tableView reloadData];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-	
-	//[facebook requestWithGraphPath:@"me?metadata=1" andDelegate:self];
-	[facebook requestWithGraphPath:@"me/friends" andDelegate:self];
+    
+    [[FacebookRequestController sharedRequestController] enqueueRequestWithGraphPath:@"me/friends"];
+    
+    //listen for a notification with the name of the identifier
+	[[NSNotificationCenter defaultCenter] addObserver:self 
+											 selector:@selector(facebookRequestDidComplete:) 
+												 name:@"me/friends" 
+											   object:nil];
 }
 
 /*

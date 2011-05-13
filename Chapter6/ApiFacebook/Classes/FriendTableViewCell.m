@@ -8,6 +8,7 @@
 
 #import "FriendTableViewCell.h"
 #import "AppDelegate.h"
+#import "FacebookRequestController.h"
 
 @implementation FriendTableViewCell
 
@@ -22,13 +23,34 @@
     return self;
 }
 
+- (void)facebookRequestDidComplete:(NSNotification*)notification {
+	
+	[[NSNotificationCenter defaultCenter] removeObserver:self];
+    
+    UIImage *image = [UIImage imageWithData:(NSData*)[notification.userInfo objectForKey:@"result"]];
+	self.imageView.image = image;
+	[self setNeedsLayout];
+}
+
 - (void)setData:(NSDictionary *)dictionary {
 	[data release];
 	data = [dictionary retain];
 
 	self.textLabel.text = [data objectForKey:@"name"];
-	
-	[facebook requestWithGraphPath:[NSString stringWithFormat:@"%@/picture", [data objectForKey:@"id"]] andDelegate:self];
+    
+    self.imageView.image = nil;
+	[self setNeedsLayout];
+    
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+    
+    NSString *path = [NSString stringWithFormat:@"%@/picture", [data objectForKey:@"id"]];
+    [[FacebookRequestController sharedRequestController] enqueueRequestWithGraphPath:path];
+    
+    //listen for a notification with the name of the identifier
+	[[NSNotificationCenter defaultCenter] addObserver:self 
+											 selector:@selector(facebookRequestDidComplete:) 
+												 name:path 
+											   object:nil];
 }
 
 - (void)requestLoading:(FBRequest *)request {
@@ -81,6 +103,8 @@
 
 
 - (void)dealloc {
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+    
 	[data release];
     [super dealloc];
 }

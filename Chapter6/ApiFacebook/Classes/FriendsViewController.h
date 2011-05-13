@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "FacebookViewController.h"
 
-@interface FriendsViewController : FacebookViewController <FBRequestDelegate> {
+@interface FriendsViewController : FacebookViewController {
 }
 
 @end
