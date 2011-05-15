@@ -34,57 +34,45 @@ static FacebookRequestController *sharedRequestController;
     [super dealloc];
 }
 
-//do one request at a time...monitor the queue on a separate thread...
-//check the queue on a separate thread and if the queue is not empty, then take the next one off of the queue and issue a request for it on the main thread
-
 - (void)issueRequest:(NSString*)path
 {
     [facebook requestWithGraphPath:path andDelegate:self];
 }
 
-- (void)dequeueNextRequest
+- (NSString*)nextRequestPath
 {
-    //only want to dequeue the next request if we're not currently processing a request
-    
     NSString *currentPath = nil;
     
-    if (NO == handlingRequest) {
-        @synchronized(self) {
-            if (0 < [requestQueue count]) {
-                currentPath = [requestQueue dequeue];
-            }
-        }
-        
-        if (currentPath) {
-            handlingRequest = YES;
-            NSMutableDictionary *dictionary = [NSMutableDictionary dictionary];
-            [dictionary setObject:currentPath forKey:@"path"];
-            
-            self.currentRequestDictionary = dictionary;
-            
-            [self performSelectorOnMainThread:@selector(issueRequest:) withObject:currentPath waitUntilDone:NO];
-        }
+    if (0 < [requestQueue count]) {
+        currentPath = [requestQueue objectAtIndex:0];
     }
+    
+    return currentPath;
 }
 
-- (void)processQueue:(id)object
+- (void)performRequest:(NSString*)path
 {
-    while (TRUE) {
-        [[FacebookRequestController sharedRequestController] dequeueNextRequest];
-        
-        [NSThread sleepForTimeInterval:.01];
-    }
+    NSMutableDictionary *dictionary = [NSMutableDictionary dictionary];
+    [dictionary setObject:path forKey:@"path"];
+    
+    self.currentRequestDictionary = dictionary;
+    
+    [self issueRequest:path];
 }
 
 - (void)enqueueRequestWithGraphPath:(NSString*)path
 {
     if (nil == requestQueue) {
         requestQueue = [[NSMutableArray array] retain];
-        
-        [self performSelectorInBackground:@selector(processQueue:) withObject:nil];
     }
+    
+    //if there are no requests in the queue, then add it to the queue and make the request...otherwise, add it to the queue
+    if (0 == [requestQueue count]) {
 
-    @synchronized(self) {
+        [requestQueue enqueue:path];
+        
+        [self performRequest:path];
+    } else {
         [requestQueue enqueue:path];
     }
 }
@@ -109,7 +97,13 @@ static FacebookRequestController *sharedRequestController;
 - (void)request:(FBRequest *)request didFailWithError:(NSError *)error {
 	NSLog(@"didFailWithError:");
     
-    handlingRequest = NO;
+    [requestQueue dequeue];
+    
+    NSString *nextRequest = [[self nextRequestPath] retain];
+    if (nextRequest) {
+        [self performRequest:nextRequest];
+    }
+    [nextRequest release];
 }
 
 /**
@@ -120,11 +114,6 @@ static FacebookRequestController *sharedRequestController;
  */
 - (void)request:(FBRequest *)request didLoad:(id)result {
 	NSLog(@"didLoad:");
-	
-	//post a notification with the current dictionary
-    //issue notification to whoever registered for the given path and include the result response
-    
-    handlingRequest = NO;
     
     NSDictionary *userInfoDictionary = [NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:result, nil] forKeys:[NSArray arrayWithObjects:@"result", nil]];
     
@@ -132,6 +121,14 @@ static FacebookRequestController *sharedRequestController;
 	[[NSNotificationCenter defaultCenter] postNotificationName:path 
 														object:self 
 													  userInfo:userInfoDictionary];
+
+    [requestQueue dequeue];
+    
+    NSString *nextRequest = [[self nextRequestPath] retain];
+    if (nextRequest) {
+        [self performRequest:nextRequest];
+    }
+    [nextRequest release];
 }
 
 /**

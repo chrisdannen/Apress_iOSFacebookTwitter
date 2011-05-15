@@ -12,7 +12,6 @@
 @interface FacebookRequestController : NSObject <FBRequestDelegate> {
     NSDictionary *currentRequestDictionary;
     NSMutableArray *requestQueue;
-    BOOL handlingRequest;
 }
 
 @property(nonatomic, retain) NSDictionary *currentRequestDictionary;
