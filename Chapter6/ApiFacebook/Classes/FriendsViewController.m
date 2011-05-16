@@ -28,9 +28,12 @@
 	
 	[[NSNotificationCenter defaultCenter] removeObserver:self];
     
-    [items release];
-	items = [[(NSDictionary*)[notification.userInfo objectForKey:@"result"] objectForKey:@"data"] retain];
-	[self.tableView reloadData];
+    NSString *path = [notification.userInfo objectForKey:@"path"];
+    if (YES == [path isEqualToString:@"me/friends"]) {
+        [items release];
+        items = [[(NSDictionary*)[notification.userInfo objectForKey:@"result"] objectForKey:@"data"] retain];
+        [self.tableView reloadData];
+    }
 }
 
 - (void)viewDidLoad {
@@ -41,7 +44,7 @@
     //listen for a notification with the name of the identifier
 	[[NSNotificationCenter defaultCenter] addObserver:self 
 											 selector:@selector(facebookRequestDidComplete:) 
-												 name:@"me/friends" 
+												 name:kRequestCompletedNotification 
 											   object:nil];
 }
 

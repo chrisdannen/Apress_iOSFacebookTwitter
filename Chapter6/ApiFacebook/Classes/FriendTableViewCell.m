@@ -13,6 +13,7 @@
 @implementation FriendTableViewCell
 
 @synthesize data;
+@synthesize requestPath;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     
@@ -24,12 +25,13 @@
 }
 
 - (void)facebookRequestDidComplete:(NSNotification*)notification {
-	
-	[[NSNotificationCenter defaultCenter] removeObserver:self];
     
-    UIImage *image = [UIImage imageWithData:(NSData*)[notification.userInfo objectForKey:@"result"]];
-	self.imageView.image = image;
-	[self setNeedsLayout];
+    if (YES == [self.requestPath isEqualToString:[notification.userInfo objectForKey:@"path"]]) {
+        
+        UIImage *image = [UIImage imageWithData:(NSData*)[notification.userInfo objectForKey:@"result"]];
+        self.imageView.image = image;
+        [self setNeedsLayout];
+    }
 }
 
 - (void)setData:(NSDictionary *)dictionary {
@@ -43,13 +45,13 @@
     
     [[NSNotificationCenter defaultCenter] removeObserver:self];
     
-    NSString *path = [NSString stringWithFormat:@"%@/picture", [data objectForKey:@"id"]];
-    [[FacebookRequestController sharedRequestController] enqueueRequestWithGraphPath:path];
+    self.requestPath = [NSString stringWithFormat:@"%@/picture", [data objectForKey:@"id"]];
+    [[FacebookRequestController sharedRequestController] enqueueRequestWithGraphPath:self.requestPath];
     
     //listen for a notification with the name of the identifier
 	[[NSNotificationCenter defaultCenter] addObserver:self 
 											 selector:@selector(facebookRequestDidComplete:) 
-												 name:path 
+												 name:kRequestCompletedNotification 
 											   object:nil];
 }
 
@@ -106,6 +108,7 @@
     [[NSNotificationCenter defaultCenter] removeObserver:self];
     
 	[data release];
+    [requestPath release];
     [super dealloc];
 }
 

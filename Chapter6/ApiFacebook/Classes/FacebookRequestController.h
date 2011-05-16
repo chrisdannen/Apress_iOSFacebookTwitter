@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "Facebook.h"
 
+extern NSString * const kRequestCompletedNotification;
+
 @interface FacebookRequestController : NSObject <FBRequestDelegate> {
     NSDictionary *currentRequestDictionary;
     NSMutableArray *requestQueue;

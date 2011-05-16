@@ -6,9 +6,10 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "FacebookRequestController.h"
-#import "NSMutableArray+QueueAdditions.h"
+#import "FacebookRequestController.h"s
 #import "AppDelegate.h"
+
+NSString * const kRequestCompletedNotification = @"requestCompletedNotification";
 
 static FacebookRequestController *sharedRequestController;
 
@@ -69,12 +70,22 @@ static FacebookRequestController *sharedRequestController;
     //if there are no requests in the queue, then add it to the queue and make the request...otherwise, add it to the queue
     if (0 == [requestQueue count]) {
 
-        [requestQueue enqueue:path];
+        [requestQueue addObject:path];
         
         [self performRequest:path];
     } else {
-        [requestQueue enqueue:path];
+        [requestQueue addObject:path];
     }
+}
+
+- (id)dequeueRequest
+{
+    if ([requestQueue count] == 0) {
+        return nil;
+    }
+    id queueObject = [[[requestQueue objectAtIndex:0] retain] autorelease];
+    [requestQueue removeObjectAtIndex:0];
+    return queueObject;
 }
 
 #pragma mark -
@@ -97,7 +108,7 @@ static FacebookRequestController *sharedRequestController;
 - (void)request:(FBRequest *)request didFailWithError:(NSError *)error {
 	NSLog(@"didFailWithError:");
     
-    [requestQueue dequeue];
+    [self dequeueRequest];
     
     NSString *nextRequest = [[self nextRequestPath] retain];
     if (nextRequest) {
@@ -115,14 +126,13 @@ static FacebookRequestController *sharedRequestController;
 - (void)request:(FBRequest *)request didLoad:(id)result {
 	NSLog(@"didLoad:");
     
-    NSDictionary *userInfoDictionary = [NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:result, nil] forKeys:[NSArray arrayWithObjects:@"result", nil]];
-    
-    NSString *path = [self.currentRequestDictionary objectForKey:@"path"];
-	[[NSNotificationCenter defaultCenter] postNotificationName:path 
+    NSDictionary *userInfoDictionary = [NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:[self.currentRequestDictionary objectForKey:@"path"], result, nil] forKeys:[NSArray arrayWithObjects:@"path", @"result", nil]];
+
+	[[NSNotificationCenter defaultCenter] postNotificationName:kRequestCompletedNotification 
 														object:self 
 													  userInfo:userInfoDictionary];
 
-    [requestQueue dequeue];
+    [self dequeueRequest];
     
     NSString *nextRequest = [[self nextRequestPath] retain];
     if (nextRequest) {

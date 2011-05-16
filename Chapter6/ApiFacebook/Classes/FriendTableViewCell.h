@@ -11,8 +11,10 @@
 
 @interface FriendTableViewCell : UITableViewCell <FBRequestDelegate> {
 	NSDictionary *data;
+    NSString *requestPath;
 }
 
 @property(nonatomic, retain) NSDictionary *data;
+@property(nonatomic, retain) NSString *requestPath;
 
 @end
