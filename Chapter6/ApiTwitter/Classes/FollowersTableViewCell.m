@@ -35,6 +35,11 @@
 	data = [dictionary retain];
 
 	self.textLabel.text = [data objectForKey:@"screen_name"];
+
+    self.imageView.image = nil;
+	[self setNeedsLayout];
+    
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
 	
 	NSString *identifier = [sa_OAuthTwitterEngine getImageAtURL:[dictionary objectForKey:@"profile_image_url"]];
 	

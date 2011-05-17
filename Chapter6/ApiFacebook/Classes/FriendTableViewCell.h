@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "Facebook.h"
 
-@interface FriendTableViewCell : UITableViewCell <FBRequestDelegate> {
+@interface FriendTableViewCell : UITableViewCell {
 	NSDictionary *data;
     NSString *requestPath;
 }
