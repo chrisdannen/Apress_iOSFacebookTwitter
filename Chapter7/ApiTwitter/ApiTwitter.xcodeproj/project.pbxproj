@@ -412,6 +412,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -425,6 +426,7 @@
 					"\"$(SRCROOT)/../../Twitter-OAuth-iPhone/Twitter+OAuth/Libraries & Headers\"",
 				);
 				PRODUCT_NAME = ApiTwitter;
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -433,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ApiTwitter_Prefix.pch;
@@ -444,6 +447,7 @@
 					"\"$(SRCROOT)/../../Twitter-OAuth-iPhone/Twitter+OAuth/Libraries & Headers\"",
 				);
 				PRODUCT_NAME = ApiTwitter;
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};

@@ -383,6 +383,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -390,11 +391,13 @@
 				GCC_PREFIX_HEADER = OAuthTwitter_Prefix.pch;
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "OAuthTwitter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../Twitter-OAuth-iPhone/Twitter+OAuth/Libraries & Headers\"",
 				);
 				PRODUCT_NAME = OAuthTwitter;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -402,16 +405,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = OAuthTwitter_Prefix.pch;
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "OAuthTwitter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../Twitter-OAuth-iPhone/Twitter+OAuth/Libraries & Headers\"",
 				);
 				PRODUCT_NAME = OAuthTwitter;
+				PROVISIONING_PROFILE = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
