@@ -13,7 +13,7 @@
 #import "ImagePostController.h"
 
 Facebook	*facebook;
-NSString	*appID	= @"114442211957627";
+NSString	*appID	= @"";
 
 @implementation AppDelegate
 

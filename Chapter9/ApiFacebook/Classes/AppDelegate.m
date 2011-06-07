@@ -15,7 +15,7 @@
 #import "MapViewController.h"
 
 Facebook	*facebook;
-NSString	*appID	= @"114442211957627";
+NSString	*appID	= @"";
 
 LocationController *locationController;
 
