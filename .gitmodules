@@ -25,3 +25,6 @@
 [submodule "FTLocationSimulator"]
 	path = FTLocationSimulator
 	url = git://github.com/futuretap/FTLocationSimulator.git
+[submodule "MGTwitterEngine"]
+	path = MGTwitterEngine
+	url = git://github.com/ctshryock/MGTwitterEngine.git
